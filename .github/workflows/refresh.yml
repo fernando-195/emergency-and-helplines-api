@@ -1,19 +1,28 @@
-# Rebuild the dataset from Wikipedia every three months, and commit whatever changed.
+# Rebuilds the dataset from Wikipedia and commits whatever changed. Nobody has to do anything.
 #
-# The commit is the point. A number that changes on Wikipedia becomes a line in the diff here, with
-# a date, so anyone depending on this can see exactly what moved and when. Silent updates would make
-# the dataset less trustworthy, not more.
+# ## Why monthly and not quarterly
 #
-# Also runs on every push and pull request, without committing, so a parser change that breaks the
-# output fails before it lands.
+# The data only moves a few times a year, so quarterly would be enough for freshness. It is not
+# enough to stay alive: **GitHub disables scheduled workflows in a public repository after 60 days
+# with no repository activity**. A quarterly job runs every ~90 days, so the first quarter that
+# produced no change would leave the repo silent past 60 days, GitHub would switch the schedule off,
+# and the dataset would quietly stop updating. The badge would still be green from the last run.
+#
+# Monthly stays comfortably inside that window, and the run always writes `generatedAt`, so there is
+# always a commit and the clock never gets close. The cost is a one-line diff on months where
+# nothing changed, which is a fair price for a job that cannot silently die. Public repositories get
+# unlimited Actions minutes, so this is free.
+#
+# It also runs on every push and pull request, without committing, so a parser change that breaks
+# the output fails before it lands.
 
 name: Refresh dataset
 
 on:
   schedule:
-    # 03:17 UTC on the 1st of January, April, July and October. An odd minute on purpose: scheduled
-    # jobs on the hour queue behind everyone else's.
-    - cron: "17 3 1 1,4,7,10 *"
+    # 03:17 UTC on the 1st of every month. An odd minute on purpose: jobs scheduled on the hour
+    # queue behind everyone else's.
+    - cron: "17 3 1 * *"
   push:
     branches: [main]
   pull_request:
@@ -38,19 +47,25 @@ jobs:
       - name: Test
         run: node src/test.mjs
 
-      # Only the scheduled and manual runs write back. A pull request from a fork must never be able
-      # to commit to this repository.
+      # Only scheduled and manual runs write back. A pull request from a fork must never be able to
+      # commit to this repository.
       - name: Commit the diff
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: |
           if git diff --quiet -- data; then
-            echo "Nothing changed."
+            echo "Nothing changed at all (not even the build date). Skipping."
             exit 0
           fi
+
+          # What actually moved, ignoring the build date, so the commit message says something true.
+          changed=$(git diff --numstat -- data/countries data/regions data/all.json | wc -l | tr -d ' ')
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data
-          git commit -m "data: quarterly refresh from Wikipedia
-
-          $(git diff --cached --stat -- data | tail -1)"
+          if [ "$changed" -gt 0 ]; then
+            git commit -m "data: refresh from Wikipedia ($changed files changed)"
+          else
+            git commit -m "data: no changes this month (heartbeat)"
+          fi
           git push

@@ -48,9 +48,9 @@ That is the whole API. Static JSON on a CDN, one file per country.
 
 > ### 🔄 It updates itself. You do nothing.
 >
-> A GitHub Action rebuilds the dataset from Wikipedia **every three months**, runs the tests, and
-> commits whatever changed. No server to keep alive, no key to rotate, no maintenance on your side
-> and none on mine. Point at the URL and forget about it.
+> A GitHub Action rebuilds the dataset from Wikipedia **every month**, runs the tests, and commits
+> whatever changed. No server to keep alive, no key to rotate, no maintenance on your side and none
+> on mine. Point at the URL and forget about it.
 >
 > Every refresh is a commit, so if a country's number changes you can see **what changed and when**
 > in the history, instead of it moving silently under you.
@@ -88,7 +88,7 @@ This repo joins both lists, keys them by the country code your device actually r
 | Query one country | **✅** | ✅ | ❌ download all |
 | Query one region | **✅** | Rarely | ❌ |
 | Keyed by ISO 3166-1 | **✅** | ✅ | ❌ country names |
-| Auto-refreshed | **✅ quarterly** | ✅ | ❌ frozen |
+| Auto-refreshed | **✅ monthly** | ✅ | ❌ frozen |
 | Changes visible in a diff | **✅** | ❌ | ❌ |
 | Works offline | **✅** | ❌ | ✅ |
 | Self-hostable | **✅** | ❌ | ✅ |
@@ -123,7 +123,7 @@ own limits to whoever is calling, and it is not the right thing to point a shipp
 
 | | |
 | --- | --- |
-| Dataset rebuild | **automatic, every 3 months** (and on any push) |
+| Dataset rebuild | **automatic, every month** (and on any push) |
 | jsDelivr cache on `@main` | up to **12 hours** |
 | jsDelivr cache on a pinned tag | forever (that is the point of pinning) |
 
@@ -256,7 +256,7 @@ node src/test.mjs     # 38 checks on the parser and the output
 
 The build reads two Wikipedia pages through the official API and parses their **HTML tables**, one cell per number, never the surrounding prose. It joins them on country, resolves each to ISO 3166-1 alpha-2, and writes one file per country, one per region, and one for everything.
 
-It refreshes automatically every three months via GitHub Actions and **commits the diff**, so when a number changes you can see exactly what moved and when.
+It refreshes automatically every month via GitHub Actions and **commits the diff**, so when a number changes you can see exactly what moved and when.
 
 ### 🪤 Three traps this handles for you
 
@@ -337,7 +337,7 @@ Yes, and for a crisis screen you probably should: it must work with no network. 
 <details>
 <summary><b>How often is it updated?</b></summary>
 <br>
-Automatically every three months, plus any time someone opens a PR. Each refresh is a commit, so the history shows what changed.
+Automatically on the 1st of every month, plus any time someone opens a PR. Each refresh is a commit, so the history shows exactly what changed and when. Nothing to maintain: there is no server, only a scheduled job on free public-repo minutes.
 </details>
 
 <details>
