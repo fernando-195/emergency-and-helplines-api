@@ -102,7 +102,36 @@ https://cdn.jsdelivr.net/gh/fernando-195/emergency-and-helplines-api@main
 https://raw.githubusercontent.com/fernando-195/emergency-and-helplines-api/main
 ```
 
-jsDelivr is the better default: a real CDN, proper caching headers, no browser rate limiting.
+**Use the jsDelivr URL in production.** It matters for a reason that is not obvious: jsDelivr pulls
+each file from GitHub **once** and then serves it from its own global CDN. Ten thousand users asking
+for `ES.json` are ten thousand requests to jsDelivr and **zero to this repository**. It is free,
+unmetered, and built for exactly this.
+
+`raw.githubusercontent.com` is fine for development and scripts. It is not a CDN, GitHub applies its
+own limits to whoever is calling, and it is not the right thing to point a shipped app at.
+
+### Caching, and how fresh the data is
+
+| | |
+| --- | --- |
+| Dataset rebuild | every 3 months (and on any push) |
+| jsDelivr cache on `@main` | up to **12 hours** |
+| jsDelivr cache on a pinned tag | forever (that is the point of pinning) |
+
+So an update takes up to about half a day to reach everyone. That is the right trade for a dataset
+that changes a few times a year, and you can force it early:
+
+```bash
+# Purge one file from jsDelivr's cache
+curl https://purge.jsdelivr.net/gh/fernando-195/emergency-and-helplines-api@main/data/countries/ES.json
+```
+
+**Pin a version if you want reproducible builds.** Replace `@main` with a tag and the file is frozen
+and cached permanently:
+
+```
+https://cdn.jsdelivr.net/gh/fernando-195/emergency-and-helplines-api@v1.0.0/data/countries/ES.json
+```
 
 ### JavaScript / TypeScript
 
@@ -275,7 +304,19 @@ No. It is a file on a CDN. <code>fetch</code> it.
 <details>
 <summary><b>Is there a rate limit?</b></summary>
 <br>
-Not from this project. jsDelivr is a CDN built for exactly this. If you hammer <code>raw.githubusercontent.com</code> instead, GitHub's own limits apply, so use the jsDelivr URL in production.
+Not from this project. jsDelivr is a CDN built for exactly this, and it never re-asks GitHub per visitor. If you point at <code>raw.githubusercontent.com</code> instead, GitHub's own limits apply to <em>you</em>, the caller. Use the jsDelivr URL in production.
+</details>
+
+<details>
+<summary><b>Will heavy use of this dataset cost the repo owner anything?</b></summary>
+<br>
+No. jsDelivr serves its own copy, so traffic never reaches this repository. Public repositories also get unlimited GitHub Actions minutes, so the quarterly rebuild is free. The whole dataset is a couple of megabytes of JSON.
+</details>
+
+<details>
+<summary><b>How do I get an update immediately instead of waiting for the cache?</b></summary>
+<br>
+<code>curl https://purge.jsdelivr.net/gh/fernando-195/emergency-and-helplines-api@main/data/countries/ES.json</code>, or pin a version tag and update it when you choose.
 </details>
 
 <details>
