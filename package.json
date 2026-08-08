@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Free JSON dataset and CLI of emergency phone numbers and suicide crisis lines for 245 countries, built from Wikipedia. No API key.",
   "type": "module",
-  "bin": { "emergency-and-helplines": "src/query.mjs" },
+  "bin": {
+    "emergency-and-helplines": "src/query.mjs"
+  },
   "main": "data/all.json",
   "exports": {
     ".": "./data/all.json",
@@ -11,20 +13,47 @@
     "./countries/*": "./data/countries/*",
     "./regions/*": "./data/regions/*"
   },
-  "files": ["src", "data", "README.md", "LICENSE"],
+  "files": [
+    "src",
+    "data",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "build": "node src/build.mjs",
     "test": "node src/test.mjs",
     "query": "node src/query.mjs"
   },
   "keywords": [
-    "emergency-numbers", "suicide-prevention", "crisis-line", "helpline", "hotline",
-    "mental-health", "911", "112", "988", "dataset", "json-api", "no-api-key",
-    "iso-3166", "country-data", "wikipedia"
+    "emergency-numbers",
+    "suicide-prevention",
+    "crisis-line",
+    "helpline",
+    "hotline",
+    "mental-health",
+    "911",
+    "112",
+    "988",
+    "dataset",
+    "json-api",
+    "no-api-key",
+    "iso-3166",
+    "country-data",
+    "wikipedia"
   ],
-  "repository": { "type": "git", "url": "git+https://github.com/fernando-195/emergency-and-helplines-api.git" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernando-195/emergency-and-helplines-api.git"
+  },
   "homepage": "https://github.com/fernando-195/emergency-and-helplines-api#readme",
   "bugs": "https://github.com/fernando-195/emergency-and-helplines-api/issues",
   "license": "MIT",
-  "engines": { "node": ">=18" }
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "fernando-195",
+  "publishConfig": {
+    "access": "public"
+  },
+  "funding": "https://github.com/sponsors/fernando-195"
 }
