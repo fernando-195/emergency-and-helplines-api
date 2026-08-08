@@ -319,7 +319,7 @@ Not from this project. jsDelivr is a CDN built for exactly this, and it never re
 <details>
 <summary><b>Will heavy use of this dataset cost the repo owner anything?</b></summary>
 <br>
-No. jsDelivr serves its own copy, so traffic never reaches this repository. Public repositories also get unlimited GitHub Actions minutes, so the quarterly rebuild is free. The whole dataset is a couple of megabytes of JSON.
+No. jsDelivr serves its own copy, so traffic never reaches this repository. Public repositories also get unlimited GitHub Actions minutes, so the monthly rebuild is free. The whole dataset is a couple of megabytes of JSON.
 </details>
 
 <details>
@@ -356,7 +356,7 @@ Yes. The code is MIT. The data is derived from Wikipedia and is CC BY-SA 4.0, so
 
 This is compiled from Wikipedia. It is **guidance, not verified official data**.
 
-- Numbers change, and Wikipedia lags. The quarterly rebuild reduces that. It does not remove it.
+- Numbers change, and Wikipedia lags. The monthly rebuild reduces that. It does not remove it.
 - Where a country lists several numbers, this takes the first one the source lists and keeps the rest in `note`.
 - Some numbers are region-specific inside a country, or only reachable from certain networks.
 - **Nothing here has been dialled by a human.**
