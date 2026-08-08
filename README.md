@@ -19,6 +19,7 @@
 **A free JSON API and open dataset of emergency phone numbers and suicide crisis lines for 245 countries.**<br>
 Query one country, one region, or grab everything. No key. No rate limit. No sign-up.
 
+[![npm](https://img.shields.io/npm/v/emergency-and-helplines?color=cb3837&logo=npm)](https://www.npmjs.com/package/emergency-and-helplines)
 [![Refresh dataset](https://github.com/fernando-195/emergency-and-helplines-api/actions/workflows/refresh.yml/badge.svg)](https://github.com/fernando-195/emergency-and-helplines-api/actions/workflows/refresh.yml)
 [![License: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
 [![Data: CC BY-SA](https://img.shields.io/badge/data-CC%20BY--SA%204.0-blue.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
@@ -104,28 +105,36 @@ Every path below is a static file on a CDN. No sign-up, no key, no limit.
 | 🌐 Everything | `/data/all.json` |
 | ℹ️ Just metadata | `/data/meta.json` |
 
-Base URL, pick either:
+Base URL, pick one. All three serve the same files:
 
-```
+```bash
+# Tracks the monthly refresh automatically
 https://cdn.jsdelivr.net/gh/fernando-195/emergency-and-helplines-api@main
+
+# Pinned to a published version, cached forever, never changes under you
+https://cdn.jsdelivr.net/npm/emergency-and-helplines@1
+https://unpkg.com/emergency-and-helplines@1
+
+# Development and scripts only
 https://raw.githubusercontent.com/fernando-195/emergency-and-helplines-api/main
 ```
 
-**Use the jsDelivr URL in production.** It matters for a reason that is not obvious: jsDelivr pulls
-each file from GitHub **once** and then serves it from its own global CDN. Ten thousand users asking
-for `ES.json` are ten thousand requests to jsDelivr and **zero to this repository**. It is free,
-unmetered, and built for exactly this.
+**Use a CDN URL in production, not `raw.githubusercontent.com`.** The reason is not obvious: jsDelivr
+and unpkg pull each file **once** and then serve their own copy from a global edge network. Ten
+thousand users asking for `ES.json` are ten thousand requests to the CDN and **zero to this
+repository**. Free, unmetered, built for exactly this.
 
-`raw.githubusercontent.com` is fine for development and scripts. It is not a CDN, GitHub applies its
-own limits to whoever is calling, and it is not the right thing to point a shipped app at.
+`raw.githubusercontent.com` is not a CDN. GitHub applies its own limits to whoever is calling, and it
+is not the right thing to point a shipped app at.
 
 ### Caching, and how fresh the data is
 
 | | |
 | --- | --- |
 | Dataset rebuild | **automatic, every month** (and on any push) |
-| jsDelivr cache on `@main` | up to **12 hours** |
-| jsDelivr cache on a pinned tag | forever (that is the point of pinning) |
+| `@main` on jsDelivr | cached up to **12 hours**, so you get refreshes automatically |
+| `@1` on npm / unpkg | frozen to that release, cached forever |
+| A git tag like `@v1.0.0` | frozen, cached forever |
 
 So an update takes up to about half a day to reach everyone. That is the right trade for a dataset
 that changes a few times a year, and you can force it early:
@@ -183,19 +192,50 @@ let country = try JSONDecoder().decode(Country.self, from: data)
 ### Command line
 
 ```bash
-npx github:fernando-195/emergency-and-helplines-api ES        # one country, by ISO code
-npx github:fernando-195/emergency-and-helplines-api Spain     # one country, by name
-npx github:fernando-195/emergency-and-helplines-api europe    # a whole region
-npx github:fernando-195/emergency-and-helplines-api ES --json # raw JSON, for piping
-npx github:fernando-195/emergency-and-helplines-api --list    # every country
+npx emergency-and-helplines ES          # one country, by ISO code
+npx emergency-and-helplines Spain       # one country, by name
+npx emergency-and-helplines europe      # a whole region
+npx emergency-and-helplines ES --json   # raw JSON, for piping
+npx emergency-and-helplines --list      # every country
 ```
 
 ```
-$ npx github:fernando-195/emergency-and-helplines-api HR
+$ npx emergency-and-helplines HR
 
 Croatia (HR) · Europe
 emergency    112   (112 or 194)
 crisis       0800 655 222
+```
+
+Or straight from this repository, without npm:
+
+```bash
+npx github:fernando-195/emergency-and-helplines-api HR
+```
+
+### As a dependency
+
+For an app that must work offline, ship the data inside it and refresh from the CDN in the
+background. That is the right shape for a crisis screen: it can never depend on the network.
+
+```bash
+npm install emergency-and-helplines
+```
+
+```js
+// Bundlers (Vite, webpack, Next.js, Metro) take these as-is
+import all    from "emergency-and-helplines";                    // every country
+import spain  from "emergency-and-helplines/countries/ES.json";
+import europe from "emergency-and-helplines/regions/europe.json";
+import meta   from "emergency-and-helplines/meta";               // build date, counts, sources
+```
+
+Plain Node needs an import attribute on JSON, and CommonJS just works:
+
+```js
+import spain from "emergency-and-helplines/countries/ES.json" with { type: "json" };
+// or
+const spain = require("emergency-and-helplines/countries/ES.json");
 ```
 
 ## 📦 Response schema
@@ -331,7 +371,7 @@ No. jsDelivr serves its own copy, so traffic never reaches this repository. Publ
 <details>
 <summary><b>Can I bundle the data in my app instead of fetching it?</b></summary>
 <br>
-Yes, and for a crisis screen you probably should: it must work with no network. Ship <code>data/all.json</code> inside your app as a floor and refresh from the CDN in the background. Attribute Wikipedia (CC BY-SA 4.0).
+Yes, and for a crisis screen you probably should: it must work with no network. <code>npm install emergency-and-helplines</code> ships the whole dataset inside your bundle as a floor, and you refresh from the CDN in the background. Attribute Wikipedia (CC BY-SA 4.0).
 </details>
 
 <details>
