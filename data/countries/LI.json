@@ -1,0 +1,13 @@
+{
+  "country": "LI",
+  "name": "Liechtenstein",
+  "region": "Europe",
+  "emergency": {
+    "number": "144",
+    "note": null
+  },
+  "crisis": {
+    "number": "147",
+    "note": null
+  }
+}

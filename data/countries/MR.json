@@ -1,0 +1,10 @@
+{
+  "country": "MR",
+  "name": "Mauritania",
+  "region": "Africa",
+  "emergency": {
+    "number": "101",
+    "note": null
+  },
+  "crisis": null
+}

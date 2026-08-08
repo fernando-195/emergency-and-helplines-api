@@ -1,0 +1,13 @@
+{
+  "country": "KI",
+  "name": "Kiribati",
+  "region": "Oceania",
+  "emergency": {
+    "number": "100",
+    "note": "100 or 999"
+  },
+  "crisis": {
+    "number": "189",
+    "note": null
+  }
+}

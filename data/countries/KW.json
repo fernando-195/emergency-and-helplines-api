@@ -1,0 +1,13 @@
+{
+  "country": "KW",
+  "name": "Kuwait",
+  "region": "Asia",
+  "emergency": {
+    "number": "112",
+    "note": null
+  },
+  "crisis": {
+    "number": "147",
+    "note": null
+  }
+}

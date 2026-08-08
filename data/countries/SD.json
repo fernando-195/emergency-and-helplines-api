@@ -1,0 +1,13 @@
+{
+  "country": "SD",
+  "name": "Sudan",
+  "region": "Africa",
+  "emergency": {
+    "number": "999",
+    "note": null
+  },
+  "crisis": {
+    "number": "011 555 253",
+    "note": null
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "country": "CH",
+  "name": "Switzerland",
+  "region": "Europe",
+  "emergency": {
+    "number": "144",
+    "note": null
+  },
+  "crisis": {
+    "number": "143",
+    "note": null
+  }
+}

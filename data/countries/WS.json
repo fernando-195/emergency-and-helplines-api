@@ -1,0 +1,13 @@
+{
+  "country": "WS",
+  "name": "Samoa",
+  "region": "Oceania",
+  "emergency": {
+    "number": "999",
+    "note": null
+  },
+  "crisis": {
+    "number": "800 7874",
+    "note": null
+  }
+}

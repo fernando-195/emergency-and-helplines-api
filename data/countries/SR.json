@@ -1,0 +1,13 @@
+{
+  "country": "SR",
+  "name": "Suriname",
+  "region": "South America",
+  "emergency": {
+    "number": "115",
+    "note": null
+  },
+  "crisis": {
+    "number": "123",
+    "note": null
+  }
+}

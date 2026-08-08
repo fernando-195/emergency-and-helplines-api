@@ -1,0 +1,13 @@
+{
+  "country": "HT",
+  "name": "Haiti",
+  "region": "Caribbean",
+  "emergency": {
+    "number": "116",
+    "note": null
+  },
+  "crisis": {
+    "number": "116",
+    "note": null
+  }
+}

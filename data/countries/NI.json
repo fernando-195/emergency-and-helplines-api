@@ -1,0 +1,13 @@
+{
+  "country": "NI",
+  "name": "Nicaragua",
+  "region": "Central America",
+  "emergency": {
+    "number": "128",
+    "note": null
+  },
+  "crisis": {
+    "number": "2222 4830",
+    "note": null
+  }
+}

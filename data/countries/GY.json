@@ -1,0 +1,13 @@
+{
+  "country": "GY",
+  "name": "Guyana",
+  "region": "South America",
+  "emergency": {
+    "number": "913",
+    "note": null
+  },
+  "crisis": {
+    "number": "915",
+    "note": null
+  }
+}

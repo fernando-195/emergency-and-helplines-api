@@ -1,0 +1,10 @@
+{
+  "country": "TC",
+  "name": "Turks & Caicos Islands",
+  "region": "Caribbean",
+  "emergency": {
+    "number": "911",
+    "note": null
+  },
+  "crisis": null
+}

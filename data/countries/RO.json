@@ -1,0 +1,13 @@
+{
+  "country": "RO",
+  "name": "Romania",
+  "region": "Europe",
+  "emergency": {
+    "number": "112",
+    "note": null
+  },
+  "crisis": {
+    "number": "0374 456 420",
+    "note": null
+  }
+}

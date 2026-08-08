@@ -1,0 +1,13 @@
+{
+  "country": "CZ",
+  "name": "Czechia",
+  "region": "Europe",
+  "emergency": {
+    "number": "112",
+    "note": "112 or 155"
+  },
+  "crisis": {
+    "number": "116 123",
+    "note": null
+  }
+}

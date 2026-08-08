@@ -1,0 +1,13 @@
+{
+  "country": "TM",
+  "name": "Turkmenistan",
+  "region": "Asia",
+  "emergency": {
+    "number": "03",
+    "note": null
+  },
+  "crisis": {
+    "number": "8 (12) 229 389",
+    "note": null
+  }
+}

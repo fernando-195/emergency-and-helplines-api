@@ -1,0 +1,13 @@
+{
+  "country": "IS",
+  "name": "Iceland",
+  "region": "Europe",
+  "emergency": {
+    "number": "112",
+    "note": null
+  },
+  "crisis": {
+    "number": "1717",
+    "note": null
+  }
+}

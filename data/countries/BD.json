@@ -1,0 +1,13 @@
+{
+  "country": "BD",
+  "name": "Bangladesh",
+  "region": "Asia",
+  "emergency": {
+    "number": "999",
+    "note": null
+  },
+  "crisis": {
+    "number": "09638 881 888",
+    "note": null
+  }
+}

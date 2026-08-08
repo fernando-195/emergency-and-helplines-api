@@ -1,0 +1,10 @@
+{
+  "country": "TA",
+  "name": "Tristan da Cunha",
+  "region": "Africa",
+  "emergency": {
+    "number": "911",
+    "note": null
+  },
+  "crisis": null
+}

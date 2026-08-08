@@ -1,0 +1,10 @@
+{
+  "country": "AQ",
+  "name": "Antarctica",
+  "region": "Antarctica",
+  "emergency": {
+    "number": "911 (",
+    "note": "McMurdo Station: 911 (fire and medical emergency dispatch)"
+  },
+  "crisis": null
+}

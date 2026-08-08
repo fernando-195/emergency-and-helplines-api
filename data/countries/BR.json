@@ -1,0 +1,13 @@
+{
+  "country": "BR",
+  "name": "Brazil",
+  "region": "South America",
+  "emergency": {
+    "number": "192",
+    "note": null
+  },
+  "crisis": {
+    "number": "188",
+    "note": null
+  }
+}

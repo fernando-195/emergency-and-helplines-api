@@ -1,0 +1,13 @@
+{
+  "country": "ME",
+  "name": "Montenegro",
+  "region": "Europe",
+  "emergency": {
+    "number": "124",
+    "note": "124 or 112"
+  },
+  "crisis": {
+    "number": "116 111",
+    "note": null
+  }
+}

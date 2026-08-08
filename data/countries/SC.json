@@ -1,0 +1,13 @@
+{
+  "country": "SC",
+  "name": "Seychelles",
+  "region": "Africa",
+  "emergency": {
+    "number": "112",
+    "note": "112 or 999"
+  },
+  "crisis": {
+    "number": "432 3535",
+    "note": null
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "country": "BG",
+  "name": "Bulgaria",
+  "region": "Europe",
+  "emergency": {
+    "number": "112",
+    "note": "112 or 150"
+  },
+  "crisis": {
+    "number": "0 8001 1466",
+    "note": null
+  }
+}

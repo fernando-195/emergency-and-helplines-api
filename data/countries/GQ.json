@@ -1,0 +1,10 @@
+{
+  "country": "GQ",
+  "name": "Equatorial Guinea",
+  "region": "Africa",
+  "emergency": {
+    "number": "115",
+    "note": null
+  },
+  "crisis": null
+}

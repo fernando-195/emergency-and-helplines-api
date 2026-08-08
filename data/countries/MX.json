@@ -1,0 +1,13 @@
+{
+  "country": "MX",
+  "name": "Mexico",
+  "region": "North America",
+  "emergency": {
+    "number": "911",
+    "note": null
+  },
+  "crisis": {
+    "number": "55-5259-8121",
+    "note": null
+  }
+}

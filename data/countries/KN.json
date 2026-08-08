@@ -1,0 +1,13 @@
+{
+  "country": "KN",
+  "name": "St. Kitts & Nevis",
+  "region": "Caribbean",
+  "emergency": {
+    "number": "911",
+    "note": null
+  },
+  "crisis": {
+    "number": "(869) 465-5000",
+    "note": null
+  }
+}

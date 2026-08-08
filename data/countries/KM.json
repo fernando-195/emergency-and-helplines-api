@@ -1,0 +1,10 @@
+{
+  "country": "KM",
+  "name": "Comoros",
+  "region": "Africa",
+  "emergency": {
+    "number": "772-03-73",
+    "note": null
+  },
+  "crisis": null
+}

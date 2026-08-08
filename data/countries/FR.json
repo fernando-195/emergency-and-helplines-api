@@ -1,0 +1,13 @@
+{
+  "country": "FR",
+  "name": "France",
+  "region": "Europe",
+  "emergency": {
+    "number": "112",
+    "note": "112 or 15"
+  },
+  "crisis": {
+    "number": "3114",
+    "note": null
+  }
+}

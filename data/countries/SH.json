@@ -1,0 +1,10 @@
+{
+  "country": "SH",
+  "name": "St. Helena",
+  "region": "Africa",
+  "emergency": {
+    "number": "999",
+    "note": null
+  },
+  "crisis": null
+}

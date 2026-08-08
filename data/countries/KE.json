@@ -1,0 +1,13 @@
+{
+  "country": "KE",
+  "name": "Kenya",
+  "region": "Africa",
+  "emergency": {
+    "number": "112",
+    "note": "112 or 999 or 911"
+  },
+  "crisis": {
+    "number": "0722 178 177",
+    "note": null
+  }
+}

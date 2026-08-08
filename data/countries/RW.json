@@ -1,0 +1,13 @@
+{
+  "country": "RW",
+  "name": "Rwanda",
+  "region": "Africa",
+  "emergency": {
+    "number": "912",
+    "note": null
+  },
+  "crisis": {
+    "number": "8015",
+    "note": null
+  }
+}

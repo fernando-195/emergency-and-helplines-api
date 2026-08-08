@@ -1,0 +1,10 @@
+{
+  "country": "TD",
+  "name": "Chad",
+  "region": "Africa",
+  "emergency": {
+    "number": "2251-4242",
+    "note": null
+  },
+  "crisis": null
+}

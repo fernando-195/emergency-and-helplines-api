@@ -1,0 +1,13 @@
+{
+  "country": "BB",
+  "name": "Barbados",
+  "region": "Caribbean",
+  "emergency": {
+    "number": "511",
+    "note": null
+  },
+  "crisis": {
+    "number": "(246) 536-4500",
+    "note": null
+  }
+}

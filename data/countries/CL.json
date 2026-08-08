@@ -1,0 +1,13 @@
+{
+  "country": "CL",
+  "name": "Chile",
+  "region": "South America",
+  "emergency": {
+    "number": "131",
+    "note": null
+  },
+  "crisis": {
+    "number": "*4141",
+    "note": null
+  }
+}

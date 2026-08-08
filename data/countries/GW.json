@@ -1,0 +1,10 @@
+{
+  "country": "GW",
+  "name": "Guinea-Bissau",
+  "region": "Africa",
+  "emergency": {
+    "number": "112",
+    "note": null
+  },
+  "crisis": null
+}

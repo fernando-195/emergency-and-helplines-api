@@ -1,0 +1,13 @@
+{
+  "country": "GR",
+  "name": "Greece",
+  "region": "Europe",
+  "emergency": {
+    "number": "166",
+    "note": "166 or 112"
+  },
+  "crisis": {
+    "number": "1018",
+    "note": null
+  }
+}

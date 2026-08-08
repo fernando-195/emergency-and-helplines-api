@@ -1,0 +1,13 @@
+{
+  "country": "SE",
+  "name": "Sweden",
+  "region": "Europe",
+  "emergency": {
+    "number": "112",
+    "note": null
+  },
+  "crisis": {
+    "number": "90101",
+    "note": null
+  }
+}

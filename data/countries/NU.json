@@ -1,0 +1,10 @@
+{
+  "country": "NU",
+  "name": "Niue",
+  "region": "Oceania",
+  "emergency": {
+    "number": "683 4202",
+    "note": "(+683) 4202"
+  },
+  "crisis": null
+}

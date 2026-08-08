@@ -1,0 +1,13 @@
+{
+  "country": "LT",
+  "name": "Lithuania",
+  "region": "Europe",
+  "emergency": {
+    "number": "112",
+    "note": null
+  },
+  "crisis": {
+    "number": "116 123",
+    "note": null
+  }
+}

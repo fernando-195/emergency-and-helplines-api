@@ -1,0 +1,13 @@
+{
+  "country": "SG",
+  "name": "Singapore",
+  "region": "Asia",
+  "emergency": {
+    "number": "995",
+    "note": null
+  },
+  "crisis": {
+    "number": "1767",
+    "note": null
+  }
+}

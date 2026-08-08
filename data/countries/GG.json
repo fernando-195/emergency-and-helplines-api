@@ -1,0 +1,13 @@
+{
+  "country": "GG",
+  "name": "Guernsey",
+  "region": "Europe",
+  "emergency": {
+    "number": "112",
+    "note": "112 or 999"
+  },
+  "crisis": {
+    "number": "116 123",
+    "note": null
+  }
+}

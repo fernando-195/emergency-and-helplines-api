@@ -1,0 +1,13 @@
+{
+  "country": "CO",
+  "name": "Colombia",
+  "region": "South America",
+  "emergency": {
+    "number": "125",
+    "note": null
+  },
+  "crisis": {
+    "number": "106",
+    "note": null
+  }
+}

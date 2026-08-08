@@ -1,0 +1,13 @@
+{
+  "country": "MF",
+  "name": "St. Martin",
+  "region": "Caribbean",
+  "emergency": {
+    "number": "15",
+    "note": null
+  },
+  "crisis": {
+    "number": "3114",
+    "note": null
+  }
+}

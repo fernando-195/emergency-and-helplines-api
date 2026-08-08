@@ -1,0 +1,13 @@
+{
+  "country": "TO",
+  "name": "Tonga",
+  "region": "Oceania",
+  "emergency": {
+    "number": "911",
+    "note": null
+  },
+  "crisis": {
+    "number": "22091",
+    "note": null
+  }
+}

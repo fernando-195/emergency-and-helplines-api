@@ -1,0 +1,13 @@
+{
+  "country": "CA",
+  "name": "Canada",
+  "region": "North America",
+  "emergency": {
+    "number": "911",
+    "note": null
+  },
+  "crisis": {
+    "number": "988",
+    "note": null
+  }
+}

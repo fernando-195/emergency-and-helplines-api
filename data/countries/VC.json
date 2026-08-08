@@ -1,0 +1,13 @@
+{
+  "country": "VC",
+  "name": "St. Vincent & Grenadines",
+  "region": "Caribbean",
+  "emergency": {
+    "number": "999",
+    "note": "999 or 911 or 112"
+  },
+  "crisis": {
+    "number": "(784) 456-1044",
+    "note": null
+  }
+}

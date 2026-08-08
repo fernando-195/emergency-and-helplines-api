@@ -1,0 +1,13 @@
+{
+  "country": "GP",
+  "name": "Guadeloupe",
+  "region": "Caribbean",
+  "emergency": {
+    "number": "112",
+    "note": null
+  },
+  "crisis": {
+    "number": "3114",
+    "note": null
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "country": "VA",
+  "name": "Vatican City",
+  "region": "Europe",
+  "emergency": {
+    "number": "112",
+    "note": null
+  },
+  "crisis": {
+    "number": "06 7720 8977",
+    "note": null
+  }
+}

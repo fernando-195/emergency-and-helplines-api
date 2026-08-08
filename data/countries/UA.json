@@ -1,0 +1,13 @@
+{
+  "country": "UA",
+  "name": "Ukraine",
+  "region": "Europe",
+  "emergency": {
+    "number": "103",
+    "note": null
+  },
+  "crisis": {
+    "number": "0800100102",
+    "note": null
+  }
+}

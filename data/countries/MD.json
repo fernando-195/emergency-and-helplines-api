@@ -1,0 +1,13 @@
+{
+  "country": "MD",
+  "name": "Moldova",
+  "region": "Europe",
+  "emergency": {
+    "number": "112",
+    "note": null
+  },
+  "crisis": {
+    "number": "022 593 593",
+    "note": null
+  }
+}

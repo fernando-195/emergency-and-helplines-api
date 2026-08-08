@@ -1,0 +1,13 @@
+{
+  "country": "AT",
+  "name": "Austria",
+  "region": "Europe",
+  "emergency": {
+    "number": "144",
+    "note": null
+  },
+  "crisis": {
+    "number": "142",
+    "note": null
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "country": "CM",
+  "name": "Cameroon",
+  "region": "Africa",
+  "emergency": {
+    "number": "112",
+    "note": null
+  },
+  "crisis": {
+    "number": "242 136 136",
+    "note": null
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "country": "MY",
+  "name": "Malaysia",
+  "region": "Asia",
+  "emergency": {
+    "number": "999",
+    "note": null
+  },
+  "crisis": {
+    "number": "15555",
+    "note": null
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "country": "UY",
+  "name": "Uruguay",
+  "region": "South America",
+  "emergency": {
+    "number": "911",
+    "note": null
+  },
+  "crisis": {
+    "number": "0800 0767",
+    "note": null
+  }
+}

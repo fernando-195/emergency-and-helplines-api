@@ -1,0 +1,10 @@
+{
+  "country": "WF",
+  "name": "Wallis & Futuna",
+  "region": "Oceania",
+  "emergency": {
+    "number": "15",
+    "note": null
+  },
+  "crisis": null
+}

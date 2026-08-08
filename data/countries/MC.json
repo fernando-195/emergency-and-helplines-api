@@ -1,0 +1,13 @@
+{
+  "country": "MC",
+  "name": "Monaco",
+  "region": "Europe",
+  "emergency": {
+    "number": "112",
+    "note": "112 or 18"
+  },
+  "crisis": {
+    "number": "0800 91 90 10",
+    "note": null
+  }
+}

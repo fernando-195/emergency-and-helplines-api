@@ -1,0 +1,13 @@
+{
+  "country": "OM",
+  "name": "Oman",
+  "region": "Asia",
+  "emergency": {
+    "number": "9999",
+    "note": null
+  },
+  "crisis": {
+    "number": "800-77788",
+    "note": null
+  }
+}

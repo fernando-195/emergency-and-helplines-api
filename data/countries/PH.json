@@ -1,0 +1,13 @@
+{
+  "country": "PH",
+  "name": "Philippines",
+  "region": "Asia",
+  "emergency": {
+    "number": "911",
+    "note": null
+  },
+  "crisis": {
+    "number": "1553",
+    "note": null
+  }
+}

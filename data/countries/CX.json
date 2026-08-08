@@ -1,0 +1,10 @@
+{
+  "country": "CX",
+  "name": "Christmas Island",
+  "region": "Asia",
+  "emergency": {
+    "number": "000",
+    "note": null
+  },
+  "crisis": null
+}

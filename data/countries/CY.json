@@ -1,0 +1,13 @@
+{
+  "country": "CY",
+  "name": "Cyprus",
+  "region": "Europe",
+  "emergency": {
+    "number": "112",
+    "note": "112 or 199"
+  },
+  "crisis": {
+    "number": "8000 7773",
+    "note": null
+  }
+}

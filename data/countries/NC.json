@@ -1,0 +1,13 @@
+{
+  "country": "NC",
+  "name": "New Caledonia",
+  "region": "Oceania",
+  "emergency": {
+    "number": "112",
+    "note": null
+  },
+  "crisis": {
+    "number": "05 30 30",
+    "note": null
+  }
+}

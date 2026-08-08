@@ -1,0 +1,13 @@
+{
+  "country": "BS",
+  "name": "Bahamas",
+  "region": "Caribbean",
+  "emergency": {
+    "number": "911",
+    "note": "911 or 919"
+  },
+  "crisis": {
+    "number": "(242) 328-0922",
+    "note": null
+  }
+}

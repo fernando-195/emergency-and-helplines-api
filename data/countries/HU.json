@@ -1,0 +1,13 @@
+{
+  "country": "HU",
+  "name": "Hungary",
+  "region": "Europe",
+  "emergency": {
+    "number": "112",
+    "note": "112 or 104"
+  },
+  "crisis": {
+    "number": "116123",
+    "note": null
+  }
+}

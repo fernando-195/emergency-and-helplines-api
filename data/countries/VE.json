@@ -1,0 +1,13 @@
+{
+  "country": "VE",
+  "name": "Venezuela",
+  "region": "South America",
+  "emergency": {
+    "number": "911",
+    "note": "911 and 171"
+  },
+  "crisis": {
+    "number": "0424-290-7338",
+    "note": null
+  }
+}

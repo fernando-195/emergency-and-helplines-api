@@ -1,0 +1,13 @@
+{
+  "country": "PW",
+  "name": "Palau",
+  "region": "Oceania",
+  "emergency": {
+    "number": "911",
+    "note": null
+  },
+  "crisis": {
+    "number": "988",
+    "note": null
+  }
+}

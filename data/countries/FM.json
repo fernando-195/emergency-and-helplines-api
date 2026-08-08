@@ -1,0 +1,10 @@
+{
+  "country": "FM",
+  "name": "Micronesia",
+  "region": "Oceania",
+  "emergency": {
+    "number": "911",
+    "note": null
+  },
+  "crisis": null
+}

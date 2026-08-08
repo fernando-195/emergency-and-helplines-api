@@ -1,0 +1,13 @@
+{
+  "country": "TR",
+  "name": "Türkiye",
+  "region": "Asia",
+  "emergency": {
+    "number": "112",
+    "note": "112 or 911"
+  },
+  "crisis": {
+    "number": "183",
+    "note": null
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "country": "LA",
+  "name": "Laos",
+  "region": "Asia",
+  "emergency": {
+    "number": "195",
+    "note": null
+  },
+  "crisis": {
+    "number": "1362",
+    "note": null
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "country": "GT",
+  "name": "Guatemala",
+  "region": "Central America",
+  "emergency": {
+    "number": "122",
+    "note": "122 CBV (national) ; 123 CBM (municipal local only) ; 1554 ASOBOMBD (municipalities associations, national) ;"
+  },
+  "crisis": {
+    "number": "1503",
+    "note": null
+  }
+}

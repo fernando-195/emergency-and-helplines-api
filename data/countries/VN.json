@@ -1,0 +1,13 @@
+{
+  "country": "VN",
+  "name": "Vietnam",
+  "region": "Asia",
+  "emergency": {
+    "number": "115",
+    "note": null
+  },
+  "crisis": {
+    "number": "1900 6233",
+    "note": null
+  }
+}

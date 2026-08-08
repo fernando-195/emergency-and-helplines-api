@@ -1,0 +1,13 @@
+{
+  "country": "MO",
+  "name": "Macao SAR China",
+  "region": "Asia",
+  "emergency": {
+    "number": "999",
+    "note": null
+  },
+  "crisis": {
+    "number": "2852 5222",
+    "note": null
+  }
+}

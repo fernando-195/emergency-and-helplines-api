@@ -1,0 +1,13 @@
+{
+  "country": "IR",
+  "name": "Iran",
+  "region": "Asia",
+  "emergency": {
+    "number": "115",
+    "note": null
+  },
+  "crisis": {
+    "number": "1480",
+    "note": null
+  }
+}

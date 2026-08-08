@@ -1,0 +1,13 @@
+{
+  "country": "KY",
+  "name": "Cayman Islands",
+  "region": "Caribbean",
+  "emergency": {
+    "number": "911",
+    "note": null
+  },
+  "crisis": {
+    "number": "1-800-534-6463",
+    "note": null
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "country": "HR",
+  "name": "Croatia",
+  "region": "Europe",
+  "emergency": {
+    "number": "112",
+    "note": "112 or 194"
+  },
+  "crisis": {
+    "number": "0800 655 222",
+    "note": null
+  }
+}

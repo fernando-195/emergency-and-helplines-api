@@ -1,0 +1,13 @@
+{
+  "country": "FK",
+  "name": "Falkland Islands",
+  "region": "South America",
+  "emergency": {
+    "number": "112",
+    "note": "112 or 999"
+  },
+  "crisis": {
+    "number": "51515",
+    "note": null
+  }
+}

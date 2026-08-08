@@ -1,0 +1,13 @@
+{
+  "country": "MH",
+  "name": "Marshall Islands",
+  "region": "Oceania",
+  "emergency": {
+    "number": "911",
+    "note": null
+  },
+  "crisis": {
+    "number": "988",
+    "note": null
+  }
+}

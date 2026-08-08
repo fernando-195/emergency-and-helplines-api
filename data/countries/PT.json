@@ -1,0 +1,13 @@
+{
+  "country": "PT",
+  "name": "Portugal",
+  "region": "Europe",
+  "emergency": {
+    "number": "112",
+    "note": null
+  },
+  "crisis": {
+    "number": "1411",
+    "note": null
+  }
+}

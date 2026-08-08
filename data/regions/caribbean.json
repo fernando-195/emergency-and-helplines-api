@@ -1,0 +1,372 @@
+{
+  "region": "Caribbean",
+  "countries": 29,
+  "generatedAt": "2026-08-08",
+  "data": [
+    {
+      "country": "AG",
+      "name": "Antigua & Barbuda",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "911",
+        "note": "911 or 999"
+      },
+      "crisis": {
+        "number": "(268) 463-5555",
+        "note": null
+      }
+    },
+    {
+      "country": "AI",
+      "name": "Anguilla",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "(264) 772-7233",
+        "note": null
+      }
+    },
+    {
+      "country": "AW",
+      "name": "Aruba",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "131",
+        "note": null
+      }
+    },
+    {
+      "country": "BB",
+      "name": "Barbados",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "511",
+        "note": null
+      },
+      "crisis": {
+        "number": "(246) 536-4500",
+        "note": null
+      }
+    },
+    {
+      "country": "BL",
+      "name": "St. Barthélemy",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "18",
+        "note": null
+      },
+      "crisis": {
+        "number": "3114",
+        "note": null
+      }
+    },
+    {
+      "country": "BM",
+      "name": "Bermuda",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "(441) 239-1111",
+        "note": null
+      }
+    },
+    {
+      "country": "BQ",
+      "name": "Caribbean Netherlands",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "BS",
+      "name": "Bahamas",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "911",
+        "note": "911 or 919"
+      },
+      "crisis": {
+        "number": "(242) 328-0922",
+        "note": null
+      }
+    },
+    {
+      "country": "CU",
+      "name": "Cuba",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "104",
+        "note": null
+      },
+      "crisis": {
+        "number": "103",
+        "note": null
+      }
+    },
+    {
+      "country": "CW",
+      "name": "Curaçao",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "910",
+        "note": "910 and 912"
+      },
+      "crisis": {
+        "number": "918",
+        "note": null
+      }
+    },
+    {
+      "country": "DM",
+      "name": "Dominica",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "999",
+        "note": null
+      },
+      "crisis": {
+        "number": "767-317-3030",
+        "note": null
+      }
+    },
+    {
+      "country": "DO",
+      "name": "Dominican Republic",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "809-200-1400",
+        "note": null
+      }
+    },
+    {
+      "country": "GD",
+      "name": "Grenada",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "(473) 440-6849",
+        "note": null
+      }
+    },
+    {
+      "country": "GP",
+      "name": "Guadeloupe",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "3114",
+        "note": null
+      }
+    },
+    {
+      "country": "HT",
+      "name": "Haiti",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "116",
+        "note": null
+      },
+      "crisis": {
+        "number": "116",
+        "note": null
+      }
+    },
+    {
+      "country": "JM",
+      "name": "Jamaica",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "110",
+        "note": null
+      },
+      "crisis": {
+        "number": "(888) 639-5433",
+        "note": null
+      }
+    },
+    {
+      "country": "KN",
+      "name": "St. Kitts & Nevis",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "(869) 465-5000",
+        "note": null
+      }
+    },
+    {
+      "country": "KY",
+      "name": "Cayman Islands",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "1-800-534-6463",
+        "note": null
+      }
+    },
+    {
+      "country": "LC",
+      "name": "St. Lucia",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "911",
+        "note": "911 or 999"
+      },
+      "crisis": {
+        "number": "203",
+        "note": null
+      }
+    },
+    {
+      "country": "MF",
+      "name": "St. Martin",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "15",
+        "note": null
+      },
+      "crisis": {
+        "number": "3114",
+        "note": null
+      }
+    },
+    {
+      "country": "MQ",
+      "name": "Martinique",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "3114",
+        "note": null
+      }
+    },
+    {
+      "country": "MS",
+      "name": "Montserrat",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "911",
+        "note": "911 or 999"
+      },
+      "crisis": null
+    },
+    {
+      "country": "PR",
+      "name": "Puerto Rico",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "988",
+        "note": null
+      }
+    },
+    {
+      "country": "SX",
+      "name": "Sint Maarten",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "912",
+        "note": null
+      },
+      "crisis": {
+        "number": "721 585-5556",
+        "note": null
+      }
+    },
+    {
+      "country": "TC",
+      "name": "Turks & Caicos Islands",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "TT",
+      "name": "Trinidad & Tobago",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "811",
+        "note": null
+      },
+      "crisis": {
+        "number": "800-5588",
+        "note": null
+      }
+    },
+    {
+      "country": "VC",
+      "name": "St. Vincent & Grenadines",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "999",
+        "note": "999 or 911 or 112"
+      },
+      "crisis": {
+        "number": "(784) 456-1044",
+        "note": null
+      }
+    },
+    {
+      "country": "VG",
+      "name": "British Virgin Islands",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "911",
+        "note": "911 or 999"
+      },
+      "crisis": null
+    },
+    {
+      "country": "VI",
+      "name": "U.S. Virgin Islands",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "988",
+        "note": null
+      }
+    }
+  ]
+}

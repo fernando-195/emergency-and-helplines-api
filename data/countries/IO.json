@@ -1,0 +1,10 @@
+{
+  "country": "IO",
+  "name": "British Indian Ocean Territory",
+  "region": "Asia",
+  "emergency": {
+    "number": "112",
+    "note": "112 or 999"
+  },
+  "crisis": null
+}

@@ -1,0 +1,13 @@
+{
+  "country": "PS",
+  "name": "Palestinian Territories",
+  "region": "Asia",
+  "emergency": {
+    "number": "101",
+    "note": null
+  },
+  "crisis": {
+    "number": "164",
+    "note": null
+  }
+}

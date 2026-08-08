@@ -1,0 +1,13 @@
+{
+  "country": "AG",
+  "name": "Antigua & Barbuda",
+  "region": "Caribbean",
+  "emergency": {
+    "number": "911",
+    "note": "911 or 999"
+  },
+  "crisis": {
+    "number": "(268) 463-5555",
+    "note": null
+  }
+}

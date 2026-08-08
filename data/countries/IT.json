@@ -1,0 +1,13 @@
+{
+  "country": "IT",
+  "name": "Italy",
+  "region": "Europe",
+  "emergency": {
+    "number": "112",
+    "note": null
+  },
+  "crisis": {
+    "number": "02 99777",
+    "note": null
+  }
+}

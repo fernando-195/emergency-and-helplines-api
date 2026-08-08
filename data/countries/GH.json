@@ -1,0 +1,13 @@
+{
+  "country": "GH",
+  "name": "Ghana",
+  "region": "Africa",
+  "emergency": {
+    "number": "112",
+    "note": null
+  },
+  "crisis": {
+    "number": "024 447 1279",
+    "note": null
+  }
+}

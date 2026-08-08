@@ -1,0 +1,13 @@
+{
+  "country": "SZ",
+  "name": "Eswatini",
+  "region": "Africa",
+  "emergency": {
+    "number": "977",
+    "note": null
+  },
+  "crisis": {
+    "number": "2404 3160",
+    "note": null
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "country": "SB",
+  "name": "Solomon Islands",
+  "region": "Oceania",
+  "emergency": {
+    "number": "911",
+    "note": "911 or 999"
+  },
+  "crisis": {
+    "number": "699",
+    "note": null
+  }
+}

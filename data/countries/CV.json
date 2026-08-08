@@ -1,0 +1,10 @@
+{
+  "country": "CV",
+  "name": "Cape Verde",
+  "region": "Africa",
+  "emergency": {
+    "number": "130",
+    "note": null
+  },
+  "crisis": null
+}

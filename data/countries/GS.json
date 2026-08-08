@@ -1,0 +1,10 @@
+{
+  "country": "GS",
+  "name": "South Georgia & South Sandwich Islands",
+  "region": "South America",
+  "emergency": {
+    "number": "999",
+    "note": null
+  },
+  "crisis": null
+}

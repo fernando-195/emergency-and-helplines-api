@@ -1,0 +1,13 @@
+{
+  "country": "MM",
+  "name": "Myanmar (Burma)",
+  "region": "Asia",
+  "emergency": {
+    "number": "999",
+    "note": null
+  },
+  "crisis": {
+    "number": "09 765 400 200",
+    "note": null
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "country": "CF",
+  "name": "Central African Republic",
+  "region": "Africa",
+  "emergency": {
+    "number": "1220",
+    "note": null
+  },
+  "crisis": null
+}

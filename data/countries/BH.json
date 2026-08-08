@@ -1,0 +1,13 @@
+{
+  "country": "BH",
+  "name": "Bahrain",
+  "region": "Asia",
+  "emergency": {
+    "number": "999",
+    "note": null
+  },
+  "crisis": {
+    "number": "3844 7588 (",
+    "note": "3844 7588 (English) ; 6671 0901 (Arabic)"
+  }
+}

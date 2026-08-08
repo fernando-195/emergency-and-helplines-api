@@ -1,0 +1,13 @@
+{
+  "country": "BY",
+  "name": "Belarus",
+  "region": "Europe",
+  "emergency": {
+    "number": "103",
+    "note": null
+  },
+  "crisis": {
+    "number": "8 (017) 311-00-99",
+    "note": null
+  }
+}

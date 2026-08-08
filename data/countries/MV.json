@@ -1,0 +1,13 @@
+{
+  "country": "MV",
+  "name": "Maldives",
+  "region": "Asia",
+  "emergency": {
+    "number": "911",
+    "note": null
+  },
+  "crisis": {
+    "number": "1677",
+    "note": null
+  }
+}

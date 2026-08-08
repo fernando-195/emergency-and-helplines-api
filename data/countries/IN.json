@@ -1,0 +1,13 @@
+{
+  "country": "IN",
+  "name": "India",
+  "region": "Asia",
+  "emergency": {
+    "number": "112",
+    "note": null
+  },
+  "crisis": {
+    "number": "14416",
+    "note": null
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "country": "GB",
+  "name": "United Kingdom",
+  "region": "Europe",
+  "emergency": {
+    "number": "999",
+    "note": "999 or 112"
+  },
+  "crisis": {
+    "number": "116 123",
+    "note": null
+  }
+}

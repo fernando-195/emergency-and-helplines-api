@@ -1,0 +1,13 @@
+{
+  "country": "BO",
+  "name": "Bolivia",
+  "region": "South America",
+  "emergency": {
+    "number": "911",
+    "note": null
+  },
+  "crisis": {
+    "number": "800 11 3040",
+    "note": null
+  }
+}

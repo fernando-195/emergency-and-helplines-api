@@ -1,0 +1,10 @@
+{
+  "country": "BZ",
+  "name": "Belize",
+  "region": "Central America",
+  "emergency": {
+    "number": "911",
+    "note": null
+  },
+  "crisis": null
+}

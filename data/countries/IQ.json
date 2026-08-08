@@ -1,0 +1,13 @@
+{
+  "country": "IQ",
+  "name": "Iraq",
+  "region": "Asia",
+  "emergency": {
+    "number": "112",
+    "note": "112 or 911"
+  },
+  "crisis": {
+    "number": "0750 309 6649",
+    "note": "0750 309 6649 ; 053 339 0840"
+  }
+}

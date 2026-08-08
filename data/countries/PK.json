@@ -1,0 +1,13 @@
+{
+  "country": "PK",
+  "name": "Pakistan",
+  "region": "Asia",
+  "emergency": {
+    "number": "115",
+    "note": "115 and 1122"
+  },
+  "crisis": {
+    "number": "0304 111 1741",
+    "note": null
+  }
+}

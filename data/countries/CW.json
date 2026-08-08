@@ -1,0 +1,13 @@
+{
+  "country": "CW",
+  "name": "Curaçao",
+  "region": "Caribbean",
+  "emergency": {
+    "number": "910",
+    "note": "910 and 912"
+  },
+  "crisis": {
+    "number": "918",
+    "note": null
+  }
+}

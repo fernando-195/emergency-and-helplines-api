@@ -1,0 +1,13 @@
+{
+  "country": "JM",
+  "name": "Jamaica",
+  "region": "Caribbean",
+  "emergency": {
+    "number": "110",
+    "note": null
+  },
+  "crisis": {
+    "number": "(888) 639-5433",
+    "note": null
+  }
+}

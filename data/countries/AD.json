@@ -1,0 +1,13 @@
+{
+  "country": "AD",
+  "name": "Andorra",
+  "region": "Europe",
+  "emergency": {
+    "number": "116",
+    "note": null
+  },
+  "crisis": {
+    "number": "177",
+    "note": null
+  }
+}

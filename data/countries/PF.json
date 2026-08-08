@@ -1,0 +1,13 @@
+{
+  "country": "PF",
+  "name": "French Polynesia",
+  "region": "Oceania",
+  "emergency": {
+    "number": "112",
+    "note": null
+  },
+  "crisis": {
+    "number": "444 767",
+    "note": "444 767 ; 89 20 25 23 (Vodafone) ; 87 20 25 23 (Vini)"
+  }
+}

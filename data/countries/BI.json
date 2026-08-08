@@ -1,0 +1,13 @@
+{
+  "country": "BI",
+  "name": "Burundi",
+  "region": "Africa",
+  "emergency": {
+    "number": "112",
+    "note": null
+  },
+  "crisis": {
+    "number": "69 77 63 67",
+    "note": null
+  }
+}

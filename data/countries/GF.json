@@ -1,0 +1,13 @@
+{
+  "country": "GF",
+  "name": "French Guiana",
+  "region": "South America",
+  "emergency": {
+    "number": "112",
+    "note": null
+  },
+  "crisis": {
+    "number": "3114",
+    "note": null
+  }
+}

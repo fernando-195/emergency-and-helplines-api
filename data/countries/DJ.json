@@ -1,0 +1,10 @@
+{
+  "country": "DJ",
+  "name": "Djibouti",
+  "region": "Africa",
+  "emergency": {
+    "number": "19",
+    "note": null
+  },
+  "crisis": null
+}

@@ -1,0 +1,13 @@
+{
+  "country": "MA",
+  "name": "Morocco",
+  "region": "Africa",
+  "emergency": {
+    "number": "15",
+    "note": null
+  },
+  "crisis": {
+    "number": "0522 25 25 25",
+    "note": null
+  }
+}

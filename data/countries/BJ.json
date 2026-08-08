@@ -1,0 +1,13 @@
+{
+  "country": "BJ",
+  "name": "Benin",
+  "region": "Africa",
+  "emergency": {
+    "number": "112",
+    "note": null
+  },
+  "crisis": {
+    "number": "7344",
+    "note": null
+  }
+}

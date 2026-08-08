@@ -1,0 +1,13 @@
+{
+  "country": "CR",
+  "name": "Costa Rica",
+  "region": "Central America",
+  "emergency": {
+    "number": "911",
+    "note": null
+  },
+  "crisis": {
+    "number": "800 273 7869",
+    "note": null
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "country": "TZ",
+  "name": "Tanzania",
+  "region": "Africa",
+  "emergency": {
+    "number": "114",
+    "note": null
+  },
+  "crisis": {
+    "number": "199",
+    "note": null
+  }
+}

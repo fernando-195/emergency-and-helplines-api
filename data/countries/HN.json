@@ -1,0 +1,13 @@
+{
+  "country": "HN",
+  "name": "Honduras",
+  "region": "Central America",
+  "emergency": {
+    "number": "195",
+    "note": null
+  },
+  "crisis": {
+    "number": "150",
+    "note": null
+  }
+}

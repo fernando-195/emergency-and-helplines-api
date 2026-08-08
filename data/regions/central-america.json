@@ -1,0 +1,105 @@
+{
+  "region": "Central America",
+  "countries": 8,
+  "generatedAt": "2026-08-08",
+  "data": [
+    {
+      "country": "BZ",
+      "name": "Belize",
+      "region": "Central America",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "CP",
+      "name": "Clipperton Island",
+      "region": "Central America",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "CR",
+      "name": "Costa Rica",
+      "region": "Central America",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "800 273 7869",
+        "note": null
+      }
+    },
+    {
+      "country": "GT",
+      "name": "Guatemala",
+      "region": "Central America",
+      "emergency": {
+        "number": "122",
+        "note": "122 CBV (national) ; 123 CBM (municipal local only) ; 1554 ASOBOMBD (municipalities associations, national) ;"
+      },
+      "crisis": {
+        "number": "1503",
+        "note": null
+      }
+    },
+    {
+      "country": "HN",
+      "name": "Honduras",
+      "region": "Central America",
+      "emergency": {
+        "number": "195",
+        "note": null
+      },
+      "crisis": {
+        "number": "150",
+        "note": null
+      }
+    },
+    {
+      "country": "NI",
+      "name": "Nicaragua",
+      "region": "Central America",
+      "emergency": {
+        "number": "128",
+        "note": null
+      },
+      "crisis": {
+        "number": "2222 4830",
+        "note": null
+      }
+    },
+    {
+      "country": "PA",
+      "name": "Panama",
+      "region": "Central America",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "147",
+        "note": null
+      }
+    },
+    {
+      "country": "SV",
+      "name": "El Salvador",
+      "region": "Central America",
+      "emergency": {
+        "number": "132",
+        "note": null
+      },
+      "crisis": {
+        "number": "126",
+        "note": null
+      }
+    }
+  ]
+}

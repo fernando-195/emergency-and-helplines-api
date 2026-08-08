@@ -1,0 +1,13 @@
+{
+  "country": "ZM",
+  "name": "Zambia",
+  "region": "Africa",
+  "emergency": {
+    "number": "999",
+    "note": null
+  },
+  "crisis": {
+    "number": "096 026 4040",
+    "note": null
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "country": "CP",
+  "name": "Clipperton Island",
+  "region": "Central America",
+  "emergency": {
+    "number": "112",
+    "note": null
+  },
+  "crisis": null
+}

@@ -1,0 +1,10 @@
+{
+  "country": "LS",
+  "name": "Lesotho",
+  "region": "Africa",
+  "emergency": {
+    "number": "121",
+    "note": null
+  },
+  "crisis": null
+}

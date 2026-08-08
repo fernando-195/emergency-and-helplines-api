@@ -1,0 +1,13 @@
+{
+  "country": "VI",
+  "name": "U.S. Virgin Islands",
+  "region": "Caribbean",
+  "emergency": {
+    "number": "911",
+    "note": null
+  },
+  "crisis": {
+    "number": "988",
+    "note": null
+  }
+}

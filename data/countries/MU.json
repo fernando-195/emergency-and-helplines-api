@@ -1,0 +1,13 @@
+{
+  "country": "MU",
+  "name": "Mauritius",
+  "region": "Africa",
+  "emergency": {
+    "number": "114",
+    "note": null
+  },
+  "crisis": {
+    "number": "800 93 93",
+    "note": null
+  }
+}

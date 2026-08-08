@@ -1,0 +1,3080 @@
+{
+  "generatedAt": "2026-08-08",
+  "countries": 245,
+  "withCrisisLine": 199,
+  "withoutCrisisLine": 46,
+  "regions": {
+    "africa": 59,
+    "europe": 54,
+    "asia": 51,
+    "caribbean": 29,
+    "antarctica": 1,
+    "south-america": 15,
+    "oceania": 23,
+    "central-america": 8,
+    "north-america": 5
+  },
+  "sources": {
+    "emergency": {
+      "page": "List_of_emergency_telephone_numbers",
+      "revision": 1362829639,
+      "url": "https://en.wikipedia.org/wiki/List_of_emergency_telephone_numbers"
+    },
+    "crisis": {
+      "page": "List_of_suicide_crisis_lines",
+      "revision": 1363635917,
+      "url": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    },
+    "license": "Wikipedia text is CC BY-SA 4.0"
+  },
+  "disclaimer": "Compiled from Wikipedia and provided as guidance, not as verified official data. Numbers change. Verify against the official body of each country before relying on this where a wrong number causes harm.",
+  "data": [
+    {
+      "country": "AC",
+      "name": "Ascension Island",
+      "region": "Africa",
+      "emergency": {
+        "number": "999",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "AD",
+      "name": "Andorra",
+      "region": "Europe",
+      "emergency": {
+        "number": "116",
+        "note": null
+      },
+      "crisis": {
+        "number": "177",
+        "note": null
+      }
+    },
+    {
+      "country": "AE",
+      "name": "United Arab Emirates",
+      "region": "Asia",
+      "emergency": {
+        "number": "998",
+        "note": null
+      },
+      "crisis": {
+        "number": "800 4673",
+        "note": null
+      }
+    },
+    {
+      "country": "AF",
+      "name": "Afghanistan",
+      "region": "Asia",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "AG",
+      "name": "Antigua & Barbuda",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "911",
+        "note": "911 or 999"
+      },
+      "crisis": {
+        "number": "(268) 463-5555",
+        "note": null
+      }
+    },
+    {
+      "country": "AI",
+      "name": "Anguilla",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "(264) 772-7233",
+        "note": null
+      }
+    },
+    {
+      "country": "AL",
+      "name": "Albania",
+      "region": "Europe",
+      "emergency": {
+        "number": "127",
+        "note": null
+      },
+      "crisis": {
+        "number": "0800 12345",
+        "note": null
+      }
+    },
+    {
+      "country": "AM",
+      "name": "Armenia",
+      "region": "Europe",
+      "emergency": {
+        "number": "112",
+        "note": "112 or 911"
+      },
+      "crisis": {
+        "number": "0800 00 900",
+        "note": null
+      }
+    },
+    {
+      "country": "AO",
+      "name": "Angola",
+      "region": "Africa",
+      "emergency": {
+        "number": "112",
+        "note": "112/116"
+      },
+      "crisis": null
+    },
+    {
+      "country": "AQ",
+      "name": "Antarctica",
+      "region": "Antarctica",
+      "emergency": {
+        "number": "911 (",
+        "note": "McMurdo Station: 911 (fire and medical emergency dispatch)"
+      },
+      "crisis": null
+    },
+    {
+      "country": "AR",
+      "name": "Argentina",
+      "region": "South America",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "0800 999 0091",
+        "note": null
+      }
+    },
+    {
+      "country": "AS",
+      "name": "American Samoa",
+      "region": "Oceania",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "988",
+        "note": null
+      }
+    },
+    {
+      "country": "AT",
+      "name": "Austria",
+      "region": "Europe",
+      "emergency": {
+        "number": "144",
+        "note": null
+      },
+      "crisis": {
+        "number": "142",
+        "note": null
+      }
+    },
+    {
+      "country": "AU",
+      "name": "Australia",
+      "region": "Oceania",
+      "emergency": {
+        "number": "000",
+        "note": null
+      },
+      "crisis": {
+        "number": "13 11 14",
+        "note": null
+      }
+    },
+    {
+      "country": "AW",
+      "name": "Aruba",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "131",
+        "note": null
+      }
+    },
+    {
+      "country": "AX",
+      "name": "Åland Islands",
+      "region": "Europe",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "116 123",
+        "note": null
+      }
+    },
+    {
+      "country": "AZ",
+      "name": "Azerbaijan",
+      "region": "Europe",
+      "emergency": {
+        "number": "112",
+        "note": "112 or 103"
+      },
+      "crisis": null
+    },
+    {
+      "country": "BA",
+      "name": "Bosnia & Herzegovina",
+      "region": "Europe",
+      "emergency": {
+        "number": "124",
+        "note": null
+      },
+      "crisis": {
+        "number": "080 05 03 05",
+        "note": null
+      }
+    },
+    {
+      "country": "BB",
+      "name": "Barbados",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "511",
+        "note": null
+      },
+      "crisis": {
+        "number": "(246) 536-4500",
+        "note": null
+      }
+    },
+    {
+      "country": "BD",
+      "name": "Bangladesh",
+      "region": "Asia",
+      "emergency": {
+        "number": "999",
+        "note": null
+      },
+      "crisis": {
+        "number": "09638 881 888",
+        "note": null
+      }
+    },
+    {
+      "country": "BE",
+      "name": "Belgium",
+      "region": "Europe",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "107",
+        "note": null
+      }
+    },
+    {
+      "country": "BF",
+      "name": "Burkina Faso",
+      "region": "Africa",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "BG",
+      "name": "Bulgaria",
+      "region": "Europe",
+      "emergency": {
+        "number": "112",
+        "note": "112 or 150"
+      },
+      "crisis": {
+        "number": "0 8001 1466",
+        "note": null
+      }
+    },
+    {
+      "country": "BH",
+      "name": "Bahrain",
+      "region": "Asia",
+      "emergency": {
+        "number": "999",
+        "note": null
+      },
+      "crisis": {
+        "number": "3844 7588 (",
+        "note": "3844 7588 (English) ; 6671 0901 (Arabic)"
+      }
+    },
+    {
+      "country": "BI",
+      "name": "Burundi",
+      "region": "Africa",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "69 77 63 67",
+        "note": null
+      }
+    },
+    {
+      "country": "BJ",
+      "name": "Benin",
+      "region": "Africa",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "7344",
+        "note": null
+      }
+    },
+    {
+      "country": "BL",
+      "name": "St. Barthélemy",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "18",
+        "note": null
+      },
+      "crisis": {
+        "number": "3114",
+        "note": null
+      }
+    },
+    {
+      "country": "BM",
+      "name": "Bermuda",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "(441) 239-1111",
+        "note": null
+      }
+    },
+    {
+      "country": "BN",
+      "name": "Brunei",
+      "region": "Asia",
+      "emergency": {
+        "number": "991",
+        "note": null
+      },
+      "crisis": {
+        "number": "145",
+        "note": null
+      }
+    },
+    {
+      "country": "BO",
+      "name": "Bolivia",
+      "region": "South America",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "800 11 3040",
+        "note": null
+      }
+    },
+    {
+      "country": "BQ",
+      "name": "Caribbean Netherlands",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "BR",
+      "name": "Brazil",
+      "region": "South America",
+      "emergency": {
+        "number": "192",
+        "note": null
+      },
+      "crisis": {
+        "number": "188",
+        "note": null
+      }
+    },
+    {
+      "country": "BS",
+      "name": "Bahamas",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "911",
+        "note": "911 or 919"
+      },
+      "crisis": {
+        "number": "(242) 328-0922",
+        "note": null
+      }
+    },
+    {
+      "country": "BT",
+      "name": "Bhutan",
+      "region": "Asia",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "1010",
+        "note": null
+      }
+    },
+    {
+      "country": "BW",
+      "name": "Botswana",
+      "region": "Africa",
+      "emergency": {
+        "number": "997",
+        "note": null
+      },
+      "crisis": {
+        "number": "75 527 590",
+        "note": null
+      }
+    },
+    {
+      "country": "BY",
+      "name": "Belarus",
+      "region": "Europe",
+      "emergency": {
+        "number": "103",
+        "note": null
+      },
+      "crisis": {
+        "number": "8 (017) 311-00-99",
+        "note": null
+      }
+    },
+    {
+      "country": "BZ",
+      "name": "Belize",
+      "region": "Central America",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "CA",
+      "name": "Canada",
+      "region": "North America",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "988",
+        "note": null
+      }
+    },
+    {
+      "country": "CC",
+      "name": "Cocos (Keeling) Islands",
+      "region": "Asia",
+      "emergency": {
+        "number": "000",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "CD",
+      "name": "Congo - Kinshasa",
+      "region": "Africa",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "CF",
+      "name": "Central African Republic",
+      "region": "Africa",
+      "emergency": {
+        "number": "1220",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "CG",
+      "name": "Congo - Brazzaville",
+      "region": "Africa",
+      "emergency": {
+        "number": "117",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "CH",
+      "name": "Switzerland",
+      "region": "Europe",
+      "emergency": {
+        "number": "144",
+        "note": null
+      },
+      "crisis": {
+        "number": "143",
+        "note": null
+      }
+    },
+    {
+      "country": "CI",
+      "name": "Côte d’Ivoire",
+      "region": "Africa",
+      "emergency": {
+        "number": "185",
+        "note": null
+      },
+      "crisis": {
+        "number": "143",
+        "note": null
+      }
+    },
+    {
+      "country": "CK",
+      "name": "Cook Islands",
+      "region": "Oceania",
+      "emergency": {
+        "number": "999",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "CL",
+      "name": "Chile",
+      "region": "South America",
+      "emergency": {
+        "number": "131",
+        "note": null
+      },
+      "crisis": {
+        "number": "*4141",
+        "note": null
+      }
+    },
+    {
+      "country": "CM",
+      "name": "Cameroon",
+      "region": "Africa",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "242 136 136",
+        "note": null
+      }
+    },
+    {
+      "country": "CN",
+      "name": "China",
+      "region": "Asia",
+      "emergency": {
+        "number": "120",
+        "note": null
+      },
+      "crisis": {
+        "number": "12355",
+        "note": null
+      }
+    },
+    {
+      "country": "CO",
+      "name": "Colombia",
+      "region": "South America",
+      "emergency": {
+        "number": "125",
+        "note": null
+      },
+      "crisis": {
+        "number": "106",
+        "note": null
+      }
+    },
+    {
+      "country": "CP",
+      "name": "Clipperton Island",
+      "region": "Central America",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "CR",
+      "name": "Costa Rica",
+      "region": "Central America",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "800 273 7869",
+        "note": null
+      }
+    },
+    {
+      "country": "CU",
+      "name": "Cuba",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "104",
+        "note": null
+      },
+      "crisis": {
+        "number": "103",
+        "note": null
+      }
+    },
+    {
+      "country": "CV",
+      "name": "Cape Verde",
+      "region": "Africa",
+      "emergency": {
+        "number": "130",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "CW",
+      "name": "Curaçao",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "910",
+        "note": "910 and 912"
+      },
+      "crisis": {
+        "number": "918",
+        "note": null
+      }
+    },
+    {
+      "country": "CX",
+      "name": "Christmas Island",
+      "region": "Asia",
+      "emergency": {
+        "number": "000",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "CY",
+      "name": "Cyprus",
+      "region": "Europe",
+      "emergency": {
+        "number": "112",
+        "note": "112 or 199"
+      },
+      "crisis": {
+        "number": "8000 7773",
+        "note": null
+      }
+    },
+    {
+      "country": "CZ",
+      "name": "Czechia",
+      "region": "Europe",
+      "emergency": {
+        "number": "112",
+        "note": "112 or 155"
+      },
+      "crisis": {
+        "number": "116 123",
+        "note": null
+      }
+    },
+    {
+      "country": "DE",
+      "name": "Germany",
+      "region": "Europe",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "116 123",
+        "note": null
+      }
+    },
+    {
+      "country": "DJ",
+      "name": "Djibouti",
+      "region": "Africa",
+      "emergency": {
+        "number": "19",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "DK",
+      "name": "Denmark",
+      "region": "Europe",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "70 201 201",
+        "note": null
+      }
+    },
+    {
+      "country": "DM",
+      "name": "Dominica",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "999",
+        "note": null
+      },
+      "crisis": {
+        "number": "767-317-3030",
+        "note": null
+      }
+    },
+    {
+      "country": "DO",
+      "name": "Dominican Republic",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "809-200-1400",
+        "note": null
+      }
+    },
+    {
+      "country": "DZ",
+      "name": "Algeria",
+      "region": "Africa",
+      "emergency": {
+        "number": "14",
+        "note": null
+      },
+      "crisis": {
+        "number": "0560 00 13 38",
+        "note": null
+      }
+    },
+    {
+      "country": "EC",
+      "name": "Ecuador",
+      "region": "South America",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "171",
+        "note": "171 option 6"
+      }
+    },
+    {
+      "country": "EE",
+      "name": "Estonia",
+      "region": "Europe",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "116 123",
+        "note": null
+      }
+    },
+    {
+      "country": "EG",
+      "name": "Egypt",
+      "region": "Africa",
+      "emergency": {
+        "number": "123",
+        "note": null
+      },
+      "crisis": {
+        "number": "16328",
+        "note": null
+      }
+    },
+    {
+      "country": "EH",
+      "name": "Western Sahara",
+      "region": "Africa",
+      "emergency": {
+        "number": "150",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "ER",
+      "name": "Eritrea",
+      "region": "Africa",
+      "emergency": {
+        "number": "114",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "ES",
+      "name": "Spain",
+      "region": "Europe",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "024",
+        "note": null
+      }
+    },
+    {
+      "country": "ET",
+      "name": "Ethiopia",
+      "region": "Africa",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "8335",
+        "note": null
+      }
+    },
+    {
+      "country": "FI",
+      "name": "Finland",
+      "region": "Europe",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "09 2525 0111",
+        "note": null
+      }
+    },
+    {
+      "country": "FJ",
+      "name": "Fiji",
+      "region": "Oceania",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "1543",
+        "note": null
+      }
+    },
+    {
+      "country": "FK",
+      "name": "Falkland Islands",
+      "region": "South America",
+      "emergency": {
+        "number": "112",
+        "note": "112 or 999"
+      },
+      "crisis": {
+        "number": "51515",
+        "note": null
+      }
+    },
+    {
+      "country": "FM",
+      "name": "Micronesia",
+      "region": "Oceania",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "FO",
+      "name": "Faroe Islands",
+      "region": "Europe",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "00 45 70 201 201",
+        "note": null
+      }
+    },
+    {
+      "country": "FR",
+      "name": "France",
+      "region": "Europe",
+      "emergency": {
+        "number": "112",
+        "note": "112 or 15"
+      },
+      "crisis": {
+        "number": "3114",
+        "note": null
+      }
+    },
+    {
+      "country": "GA",
+      "name": "Gabon",
+      "region": "Africa",
+      "emergency": {
+        "number": "1300",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "GB",
+      "name": "United Kingdom",
+      "region": "Europe",
+      "emergency": {
+        "number": "999",
+        "note": "999 or 112"
+      },
+      "crisis": {
+        "number": "116 123",
+        "note": null
+      }
+    },
+    {
+      "country": "GD",
+      "name": "Grenada",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "(473) 440-6849",
+        "note": null
+      }
+    },
+    {
+      "country": "GE",
+      "name": "Georgia",
+      "region": "Asia",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "116 123",
+        "note": null
+      }
+    },
+    {
+      "country": "GF",
+      "name": "French Guiana",
+      "region": "South America",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "3114",
+        "note": null
+      }
+    },
+    {
+      "country": "GG",
+      "name": "Guernsey",
+      "region": "Europe",
+      "emergency": {
+        "number": "112",
+        "note": "112 or 999"
+      },
+      "crisis": {
+        "number": "116 123",
+        "note": null
+      }
+    },
+    {
+      "country": "GH",
+      "name": "Ghana",
+      "region": "Africa",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "024 447 1279",
+        "note": null
+      }
+    },
+    {
+      "country": "GI",
+      "name": "Gibraltar",
+      "region": "Europe",
+      "emergency": {
+        "number": "190",
+        "note": "190 or 112 or 999"
+      },
+      "crisis": {
+        "number": "116 123",
+        "note": null
+      }
+    },
+    {
+      "country": "GL",
+      "name": "Greenland",
+      "region": "North America",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "801180",
+        "note": null
+      }
+    },
+    {
+      "country": "GM",
+      "name": "Gambia",
+      "region": "Africa",
+      "emergency": {
+        "number": "116",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "GN",
+      "name": "Guinea",
+      "region": "Africa",
+      "emergency": {
+        "number": "18",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "GP",
+      "name": "Guadeloupe",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "3114",
+        "note": null
+      }
+    },
+    {
+      "country": "GQ",
+      "name": "Equatorial Guinea",
+      "region": "Africa",
+      "emergency": {
+        "number": "115",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "GR",
+      "name": "Greece",
+      "region": "Europe",
+      "emergency": {
+        "number": "166",
+        "note": "166 or 112"
+      },
+      "crisis": {
+        "number": "1018",
+        "note": null
+      }
+    },
+    {
+      "country": "GS",
+      "name": "South Georgia & South Sandwich Islands",
+      "region": "South America",
+      "emergency": {
+        "number": "999",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "GT",
+      "name": "Guatemala",
+      "region": "Central America",
+      "emergency": {
+        "number": "122",
+        "note": "122 CBV (national) ; 123 CBM (municipal local only) ; 1554 ASOBOMBD (municipalities associations, national) ;"
+      },
+      "crisis": {
+        "number": "1503",
+        "note": null
+      }
+    },
+    {
+      "country": "GU",
+      "name": "Guam",
+      "region": "Oceania",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "988",
+        "note": null
+      }
+    },
+    {
+      "country": "GW",
+      "name": "Guinea-Bissau",
+      "region": "Africa",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "GY",
+      "name": "Guyana",
+      "region": "South America",
+      "emergency": {
+        "number": "913",
+        "note": null
+      },
+      "crisis": {
+        "number": "915",
+        "note": null
+      }
+    },
+    {
+      "country": "HK",
+      "name": "Hong Kong SAR China",
+      "region": "Asia",
+      "emergency": {
+        "number": "999",
+        "note": null
+      },
+      "crisis": {
+        "number": "2389 2222",
+        "note": null
+      }
+    },
+    {
+      "country": "HN",
+      "name": "Honduras",
+      "region": "Central America",
+      "emergency": {
+        "number": "195",
+        "note": null
+      },
+      "crisis": {
+        "number": "150",
+        "note": null
+      }
+    },
+    {
+      "country": "HR",
+      "name": "Croatia",
+      "region": "Europe",
+      "emergency": {
+        "number": "112",
+        "note": "112 or 194"
+      },
+      "crisis": {
+        "number": "0800 655 222",
+        "note": null
+      }
+    },
+    {
+      "country": "HT",
+      "name": "Haiti",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "116",
+        "note": null
+      },
+      "crisis": {
+        "number": "116",
+        "note": null
+      }
+    },
+    {
+      "country": "HU",
+      "name": "Hungary",
+      "region": "Europe",
+      "emergency": {
+        "number": "112",
+        "note": "112 or 104"
+      },
+      "crisis": {
+        "number": "116123",
+        "note": null
+      }
+    },
+    {
+      "country": "ID",
+      "name": "Indonesia",
+      "region": "Asia",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "119",
+        "note": "119 option 8"
+      }
+    },
+    {
+      "country": "IE",
+      "name": "Ireland",
+      "region": "Europe",
+      "emergency": {
+        "number": "112",
+        "note": "112 or 999"
+      },
+      "crisis": {
+        "number": "116 123",
+        "note": null
+      }
+    },
+    {
+      "country": "IL",
+      "name": "Israel",
+      "region": "Asia",
+      "emergency": {
+        "number": "101",
+        "note": null
+      },
+      "crisis": {
+        "number": "1201",
+        "note": null
+      }
+    },
+    {
+      "country": "IM",
+      "name": "Isle of Man",
+      "region": "Europe",
+      "emergency": {
+        "number": "112",
+        "note": "112 or 999"
+      },
+      "crisis": {
+        "number": "0808 802 1221",
+        "note": null
+      }
+    },
+    {
+      "country": "IN",
+      "name": "India",
+      "region": "Asia",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "14416",
+        "note": null
+      }
+    },
+    {
+      "country": "IO",
+      "name": "British Indian Ocean Territory",
+      "region": "Asia",
+      "emergency": {
+        "number": "112",
+        "note": "112 or 999"
+      },
+      "crisis": null
+    },
+    {
+      "country": "IQ",
+      "name": "Iraq",
+      "region": "Asia",
+      "emergency": {
+        "number": "112",
+        "note": "112 or 911"
+      },
+      "crisis": {
+        "number": "0750 309 6649",
+        "note": "0750 309 6649 ; 053 339 0840"
+      }
+    },
+    {
+      "country": "IR",
+      "name": "Iran",
+      "region": "Asia",
+      "emergency": {
+        "number": "115",
+        "note": null
+      },
+      "crisis": {
+        "number": "1480",
+        "note": null
+      }
+    },
+    {
+      "country": "IS",
+      "name": "Iceland",
+      "region": "Europe",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "1717",
+        "note": null
+      }
+    },
+    {
+      "country": "IT",
+      "name": "Italy",
+      "region": "Europe",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "02 99777",
+        "note": null
+      }
+    },
+    {
+      "country": "JE",
+      "name": "Jersey",
+      "region": "Europe",
+      "emergency": {
+        "number": "112",
+        "note": "112 or 999"
+      },
+      "crisis": {
+        "number": "116 123",
+        "note": null
+      }
+    },
+    {
+      "country": "JM",
+      "name": "Jamaica",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "110",
+        "note": null
+      },
+      "crisis": {
+        "number": "(888) 639-5433",
+        "note": null
+      }
+    },
+    {
+      "country": "JO",
+      "name": "Jordan",
+      "region": "Asia",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "079 544 0416",
+        "note": null
+      }
+    },
+    {
+      "country": "JP",
+      "name": "Japan",
+      "region": "Asia",
+      "emergency": {
+        "number": "119",
+        "note": null
+      },
+      "crisis": {
+        "number": "0120 061 338",
+        "note": null
+      }
+    },
+    {
+      "country": "KE",
+      "name": "Kenya",
+      "region": "Africa",
+      "emergency": {
+        "number": "112",
+        "note": "112 or 999 or 911"
+      },
+      "crisis": {
+        "number": "0722 178 177",
+        "note": null
+      }
+    },
+    {
+      "country": "KG",
+      "name": "Kyrgyzstan",
+      "region": "Asia",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "111",
+        "note": null
+      }
+    },
+    {
+      "country": "KH",
+      "name": "Cambodia",
+      "region": "Asia",
+      "emergency": {
+        "number": "119",
+        "note": null
+      },
+      "crisis": {
+        "number": "017 222 372",
+        "note": null
+      }
+    },
+    {
+      "country": "KI",
+      "name": "Kiribati",
+      "region": "Oceania",
+      "emergency": {
+        "number": "100",
+        "note": "100 or 999"
+      },
+      "crisis": {
+        "number": "189",
+        "note": null
+      }
+    },
+    {
+      "country": "KM",
+      "name": "Comoros",
+      "region": "Africa",
+      "emergency": {
+        "number": "772-03-73",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "KN",
+      "name": "St. Kitts & Nevis",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "(869) 465-5000",
+        "note": null
+      }
+    },
+    {
+      "country": "KP",
+      "name": "North Korea",
+      "region": "Asia",
+      "emergency": {
+        "number": "110",
+        "note": "110 or 8119"
+      },
+      "crisis": null
+    },
+    {
+      "country": "KR",
+      "name": "South Korea",
+      "region": "Asia",
+      "emergency": {
+        "number": "119",
+        "note": null
+      },
+      "crisis": {
+        "number": "109",
+        "note": null
+      }
+    },
+    {
+      "country": "KW",
+      "name": "Kuwait",
+      "region": "Asia",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "147",
+        "note": null
+      }
+    },
+    {
+      "country": "KY",
+      "name": "Cayman Islands",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "1-800-534-6463",
+        "note": null
+      }
+    },
+    {
+      "country": "KZ",
+      "name": "Kazakhstan",
+      "region": "Asia",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "150",
+        "note": null
+      }
+    },
+    {
+      "country": "LA",
+      "name": "Laos",
+      "region": "Asia",
+      "emergency": {
+        "number": "195",
+        "note": null
+      },
+      "crisis": {
+        "number": "1362",
+        "note": null
+      }
+    },
+    {
+      "country": "LB",
+      "name": "Lebanon",
+      "region": "Asia",
+      "emergency": {
+        "number": "140",
+        "note": null
+      },
+      "crisis": {
+        "number": "1564",
+        "note": null
+      }
+    },
+    {
+      "country": "LC",
+      "name": "St. Lucia",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "911",
+        "note": "911 or 999"
+      },
+      "crisis": {
+        "number": "203",
+        "note": null
+      }
+    },
+    {
+      "country": "LI",
+      "name": "Liechtenstein",
+      "region": "Europe",
+      "emergency": {
+        "number": "144",
+        "note": null
+      },
+      "crisis": {
+        "number": "147",
+        "note": null
+      }
+    },
+    {
+      "country": "LK",
+      "name": "Sri Lanka",
+      "region": "Asia",
+      "emergency": {
+        "number": "110",
+        "note": null
+      },
+      "crisis": {
+        "number": "1926",
+        "note": null
+      }
+    },
+    {
+      "country": "LR",
+      "name": "Liberia",
+      "region": "Africa",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "6534308",
+        "note": null
+      }
+    },
+    {
+      "country": "LS",
+      "name": "Lesotho",
+      "region": "Africa",
+      "emergency": {
+        "number": "121",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "LT",
+      "name": "Lithuania",
+      "region": "Europe",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "116 123",
+        "note": null
+      }
+    },
+    {
+      "country": "LU",
+      "name": "Luxembourg",
+      "region": "Europe",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "45-45-45",
+        "note": null
+      }
+    },
+    {
+      "country": "LV",
+      "name": "Latvia",
+      "region": "Europe",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "116123",
+        "note": null
+      }
+    },
+    {
+      "country": "LY",
+      "name": "Libya",
+      "region": "Africa",
+      "emergency": {
+        "number": "1515",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "MA",
+      "name": "Morocco",
+      "region": "Africa",
+      "emergency": {
+        "number": "15",
+        "note": null
+      },
+      "crisis": {
+        "number": "0522 25 25 25",
+        "note": null
+      }
+    },
+    {
+      "country": "MC",
+      "name": "Monaco",
+      "region": "Europe",
+      "emergency": {
+        "number": "112",
+        "note": "112 or 18"
+      },
+      "crisis": {
+        "number": "0800 91 90 10",
+        "note": null
+      }
+    },
+    {
+      "country": "MD",
+      "name": "Moldova",
+      "region": "Europe",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "022 593 593",
+        "note": null
+      }
+    },
+    {
+      "country": "ME",
+      "name": "Montenegro",
+      "region": "Europe",
+      "emergency": {
+        "number": "124",
+        "note": "124 or 112"
+      },
+      "crisis": {
+        "number": "116 111",
+        "note": null
+      }
+    },
+    {
+      "country": "MF",
+      "name": "St. Martin",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "15",
+        "note": null
+      },
+      "crisis": {
+        "number": "3114",
+        "note": null
+      }
+    },
+    {
+      "country": "MG",
+      "name": "Madagascar",
+      "region": "Africa",
+      "emergency": {
+        "number": "124",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "MH",
+      "name": "Marshall Islands",
+      "region": "Oceania",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "988",
+        "note": null
+      }
+    },
+    {
+      "country": "MK",
+      "name": "North Macedonia",
+      "region": "Europe",
+      "emergency": {
+        "number": "194",
+        "note": "194 or 112"
+      },
+      "crisis": {
+        "number": "070 390 632",
+        "note": null
+      }
+    },
+    {
+      "country": "ML",
+      "name": "Mali",
+      "region": "Africa",
+      "emergency": {
+        "number": "15",
+        "note": null
+      },
+      "crisis": {
+        "number": "8000 1115",
+        "note": null
+      }
+    },
+    {
+      "country": "MM",
+      "name": "Myanmar (Burma)",
+      "region": "Asia",
+      "emergency": {
+        "number": "999",
+        "note": null
+      },
+      "crisis": {
+        "number": "09 765 400 200",
+        "note": null
+      }
+    },
+    {
+      "country": "MN",
+      "name": "Mongolia",
+      "region": "Asia",
+      "emergency": {
+        "number": "105",
+        "note": null
+      },
+      "crisis": {
+        "number": "1800-2000",
+        "note": null
+      }
+    },
+    {
+      "country": "MO",
+      "name": "Macao SAR China",
+      "region": "Asia",
+      "emergency": {
+        "number": "999",
+        "note": null
+      },
+      "crisis": {
+        "number": "2852 5222",
+        "note": null
+      }
+    },
+    {
+      "country": "MP",
+      "name": "Northern Mariana Islands",
+      "region": "Oceania",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "988",
+        "note": null
+      }
+    },
+    {
+      "country": "MQ",
+      "name": "Martinique",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "3114",
+        "note": null
+      }
+    },
+    {
+      "country": "MR",
+      "name": "Mauritania",
+      "region": "Africa",
+      "emergency": {
+        "number": "101",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "MS",
+      "name": "Montserrat",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "911",
+        "note": "911 or 999"
+      },
+      "crisis": null
+    },
+    {
+      "country": "MT",
+      "name": "Malta",
+      "region": "Europe",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "179",
+        "note": null
+      }
+    },
+    {
+      "country": "MU",
+      "name": "Mauritius",
+      "region": "Africa",
+      "emergency": {
+        "number": "114",
+        "note": null
+      },
+      "crisis": {
+        "number": "800 93 93",
+        "note": null
+      }
+    },
+    {
+      "country": "MV",
+      "name": "Maldives",
+      "region": "Asia",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "1677",
+        "note": null
+      }
+    },
+    {
+      "country": "MW",
+      "name": "Malawi",
+      "region": "Africa",
+      "emergency": {
+        "number": "998",
+        "note": null
+      },
+      "crisis": {
+        "number": "0999 399 765 (",
+        "note": "0999 399 765 (Airtel) 885 400 502 (TNM)"
+      }
+    },
+    {
+      "country": "MX",
+      "name": "Mexico",
+      "region": "North America",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "55-5259-8121",
+        "note": null
+      }
+    },
+    {
+      "country": "MY",
+      "name": "Malaysia",
+      "region": "Asia",
+      "emergency": {
+        "number": "999",
+        "note": null
+      },
+      "crisis": {
+        "number": "15555",
+        "note": null
+      }
+    },
+    {
+      "country": "MZ",
+      "name": "Mozambique",
+      "region": "Africa",
+      "emergency": {
+        "number": "117",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "NC",
+      "name": "New Caledonia",
+      "region": "Oceania",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "05 30 30",
+        "note": null
+      }
+    },
+    {
+      "country": "NE",
+      "name": "Niger",
+      "region": "Africa",
+      "emergency": {
+        "number": "15",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "NG",
+      "name": "Nigeria",
+      "region": "Africa",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "0800 078 7746",
+        "note": null
+      }
+    },
+    {
+      "country": "NH",
+      "name": "Vanuatu",
+      "region": "Oceania",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "7716156 (",
+        "note": "7716156 (Vodafone) ; 7716155 (Digicel)"
+      }
+    },
+    {
+      "country": "NI",
+      "name": "Nicaragua",
+      "region": "Central America",
+      "emergency": {
+        "number": "128",
+        "note": null
+      },
+      "crisis": {
+        "number": "2222 4830",
+        "note": null
+      }
+    },
+    {
+      "country": "NL",
+      "name": "Netherlands",
+      "region": "Europe",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "113",
+        "note": null
+      }
+    },
+    {
+      "country": "NO",
+      "name": "Norway",
+      "region": "Europe",
+      "emergency": {
+        "number": "113",
+        "note": null
+      },
+      "crisis": {
+        "number": "116 123",
+        "note": null
+      }
+    },
+    {
+      "country": "NP",
+      "name": "Nepal",
+      "region": "Asia",
+      "emergency": {
+        "number": "102",
+        "note": null
+      },
+      "crisis": {
+        "number": "1166",
+        "note": null
+      }
+    },
+    {
+      "country": "NR",
+      "name": "Nauru",
+      "region": "Oceania",
+      "emergency": {
+        "number": "111",
+        "note": null
+      },
+      "crisis": {
+        "number": "249",
+        "note": null
+      }
+    },
+    {
+      "country": "NU",
+      "name": "Niue",
+      "region": "Oceania",
+      "emergency": {
+        "number": "683 4202",
+        "note": "(+683) 4202"
+      },
+      "crisis": null
+    },
+    {
+      "country": "NZ",
+      "name": "New Zealand",
+      "region": "Oceania",
+      "emergency": {
+        "number": "111",
+        "note": null
+      },
+      "crisis": {
+        "number": "1737",
+        "note": null
+      }
+    },
+    {
+      "country": "OM",
+      "name": "Oman",
+      "region": "Asia",
+      "emergency": {
+        "number": "9999",
+        "note": null
+      },
+      "crisis": {
+        "number": "800-77788",
+        "note": null
+      }
+    },
+    {
+      "country": "PA",
+      "name": "Panama",
+      "region": "Central America",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "147",
+        "note": null
+      }
+    },
+    {
+      "country": "PE",
+      "name": "Peru",
+      "region": "South America",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "113",
+        "note": "113 option 5"
+      }
+    },
+    {
+      "country": "PF",
+      "name": "French Polynesia",
+      "region": "Oceania",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "444 767",
+        "note": "444 767 ; 89 20 25 23 (Vodafone) ; 87 20 25 23 (Vini)"
+      }
+    },
+    {
+      "country": "PG",
+      "name": "Papua New Guinea",
+      "region": "Oceania",
+      "emergency": {
+        "number": "111",
+        "note": null
+      },
+      "crisis": {
+        "number": "7147 1518",
+        "note": null
+      }
+    },
+    {
+      "country": "PH",
+      "name": "Philippines",
+      "region": "Asia",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "1553",
+        "note": null
+      }
+    },
+    {
+      "country": "PK",
+      "name": "Pakistan",
+      "region": "Asia",
+      "emergency": {
+        "number": "115",
+        "note": "115 and 1122"
+      },
+      "crisis": {
+        "number": "0304 111 1741",
+        "note": null
+      }
+    },
+    {
+      "country": "PL",
+      "name": "Poland",
+      "region": "Europe",
+      "emergency": {
+        "number": "999",
+        "note": "999 or 112"
+      },
+      "crisis": {
+        "number": "116 123",
+        "note": null
+      }
+    },
+    {
+      "country": "PM",
+      "name": "St. Pierre & Miquelon",
+      "region": "North America",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "3114",
+        "note": null
+      }
+    },
+    {
+      "country": "PR",
+      "name": "Puerto Rico",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "988",
+        "note": null
+      }
+    },
+    {
+      "country": "PS",
+      "name": "Palestinian Territories",
+      "region": "Asia",
+      "emergency": {
+        "number": "101",
+        "note": null
+      },
+      "crisis": {
+        "number": "164",
+        "note": null
+      }
+    },
+    {
+      "country": "PT",
+      "name": "Portugal",
+      "region": "Europe",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "1411",
+        "note": null
+      }
+    },
+    {
+      "country": "PW",
+      "name": "Palau",
+      "region": "Oceania",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "988",
+        "note": null
+      }
+    },
+    {
+      "country": "PY",
+      "name": "Paraguay",
+      "region": "South America",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "155",
+        "note": null
+      }
+    },
+    {
+      "country": "QA",
+      "name": "Qatar",
+      "region": "Asia",
+      "emergency": {
+        "number": "999",
+        "note": null
+      },
+      "crisis": {
+        "number": "16000",
+        "note": "16000 option 4"
+      }
+    },
+    {
+      "country": "RE",
+      "name": "Réunion",
+      "region": "Africa",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "3114",
+        "note": null
+      }
+    },
+    {
+      "country": "RH",
+      "name": "Zimbabwe",
+      "region": "Africa",
+      "emergency": {
+        "number": "999",
+        "note": null
+      },
+      "crisis": {
+        "number": "029 226 5000",
+        "note": null
+      }
+    },
+    {
+      "country": "RO",
+      "name": "Romania",
+      "region": "Europe",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "0374 456 420",
+        "note": null
+      }
+    },
+    {
+      "country": "RS",
+      "name": "Serbia",
+      "region": "Europe",
+      "emergency": {
+        "number": "194",
+        "note": null
+      },
+      "crisis": {
+        "number": "0800",
+        "note": "0800/309-309"
+      }
+    },
+    {
+      "country": "RU",
+      "name": "Russia",
+      "region": "Europe",
+      "emergency": {
+        "number": "103",
+        "note": "103 or 112"
+      },
+      "crisis": {
+        "number": "8 (495) 989-50-50",
+        "note": null
+      }
+    },
+    {
+      "country": "RW",
+      "name": "Rwanda",
+      "region": "Africa",
+      "emergency": {
+        "number": "912",
+        "note": null
+      },
+      "crisis": {
+        "number": "8015",
+        "note": null
+      }
+    },
+    {
+      "country": "SA",
+      "name": "Saudi Arabia",
+      "region": "Asia",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "9200 33360",
+        "note": null
+      }
+    },
+    {
+      "country": "SB",
+      "name": "Solomon Islands",
+      "region": "Oceania",
+      "emergency": {
+        "number": "911",
+        "note": "911 or 999"
+      },
+      "crisis": {
+        "number": "699",
+        "note": null
+      }
+    },
+    {
+      "country": "SC",
+      "name": "Seychelles",
+      "region": "Africa",
+      "emergency": {
+        "number": "112",
+        "note": "112 or 999"
+      },
+      "crisis": {
+        "number": "432 3535",
+        "note": null
+      }
+    },
+    {
+      "country": "SD",
+      "name": "Sudan",
+      "region": "Africa",
+      "emergency": {
+        "number": "999",
+        "note": null
+      },
+      "crisis": {
+        "number": "011 555 253",
+        "note": null
+      }
+    },
+    {
+      "country": "SE",
+      "name": "Sweden",
+      "region": "Europe",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "90101",
+        "note": null
+      }
+    },
+    {
+      "country": "SG",
+      "name": "Singapore",
+      "region": "Asia",
+      "emergency": {
+        "number": "995",
+        "note": null
+      },
+      "crisis": {
+        "number": "1767",
+        "note": null
+      }
+    },
+    {
+      "country": "SH",
+      "name": "St. Helena",
+      "region": "Africa",
+      "emergency": {
+        "number": "999",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "SI",
+      "name": "Slovenia",
+      "region": "Europe",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "116 123",
+        "note": null
+      }
+    },
+    {
+      "country": "SK",
+      "name": "Slovakia",
+      "region": "Europe",
+      "emergency": {
+        "number": "112",
+        "note": "112 or 155"
+      },
+      "crisis": {
+        "number": "0800 800 566",
+        "note": null
+      }
+    },
+    {
+      "country": "SL",
+      "name": "Sierra Leone",
+      "region": "Africa",
+      "emergency": {
+        "number": "999",
+        "note": null
+      },
+      "crisis": {
+        "number": "078 522 787",
+        "note": null
+      }
+    },
+    {
+      "country": "SM",
+      "name": "San Marino",
+      "region": "Europe",
+      "emergency": {
+        "number": "118",
+        "note": null
+      },
+      "crisis": {
+        "number": "800 995 988",
+        "note": null
+      }
+    },
+    {
+      "country": "SN",
+      "name": "Senegal",
+      "region": "Africa",
+      "emergency": {
+        "number": "18",
+        "note": null
+      },
+      "crisis": {
+        "number": "33 889 38 00",
+        "note": null
+      }
+    },
+    {
+      "country": "SO",
+      "name": "Somalia",
+      "region": "Africa",
+      "emergency": {
+        "number": "999",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "SR",
+      "name": "Suriname",
+      "region": "South America",
+      "emergency": {
+        "number": "115",
+        "note": null
+      },
+      "crisis": {
+        "number": "123",
+        "note": null
+      }
+    },
+    {
+      "country": "SS",
+      "name": "South Sudan",
+      "region": "Africa",
+      "emergency": {
+        "number": "999",
+        "note": null
+      },
+      "crisis": {
+        "number": "778",
+        "note": null
+      }
+    },
+    {
+      "country": "ST",
+      "name": "São Tomé & Príncipe",
+      "region": "Africa",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "222 2222",
+        "note": null
+      }
+    },
+    {
+      "country": "SV",
+      "name": "El Salvador",
+      "region": "Central America",
+      "emergency": {
+        "number": "132",
+        "note": null
+      },
+      "crisis": {
+        "number": "126",
+        "note": null
+      }
+    },
+    {
+      "country": "SX",
+      "name": "Sint Maarten",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "912",
+        "note": null
+      },
+      "crisis": {
+        "number": "721 585-5556",
+        "note": null
+      }
+    },
+    {
+      "country": "SY",
+      "name": "Syria",
+      "region": "Asia",
+      "emergency": {
+        "number": "110",
+        "note": null
+      },
+      "crisis": {
+        "number": "0944 868 444",
+        "note": null
+      }
+    },
+    {
+      "country": "SZ",
+      "name": "Eswatini",
+      "region": "Africa",
+      "emergency": {
+        "number": "977",
+        "note": null
+      },
+      "crisis": {
+        "number": "2404 3160",
+        "note": null
+      }
+    },
+    {
+      "country": "TA",
+      "name": "Tristan da Cunha",
+      "region": "Africa",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "TC",
+      "name": "Turks & Caicos Islands",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "TD",
+      "name": "Chad",
+      "region": "Africa",
+      "emergency": {
+        "number": "2251-4242",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "TG",
+      "name": "Togo",
+      "region": "Africa",
+      "emergency": {
+        "number": "8200",
+        "note": null
+      },
+      "crisis": {
+        "number": "2221 1234",
+        "note": null
+      }
+    },
+    {
+      "country": "TH",
+      "name": "Thailand",
+      "region": "Asia",
+      "emergency": {
+        "number": "1669",
+        "note": null
+      },
+      "crisis": {
+        "number": "1323",
+        "note": null
+      }
+    },
+    {
+      "country": "TJ",
+      "name": "Tajikistan",
+      "region": "Asia",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "935 50 50 50",
+        "note": null
+      }
+    },
+    {
+      "country": "TK",
+      "name": "Tokelau",
+      "region": "Oceania",
+      "emergency": {
+        "number": "690 2112",
+        "note": "(+690) 2112"
+      },
+      "crisis": null
+    },
+    {
+      "country": "TL",
+      "name": "Timor-Leste",
+      "region": "Asia",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "7725 4597",
+        "note": null
+      }
+    },
+    {
+      "country": "TM",
+      "name": "Turkmenistan",
+      "region": "Asia",
+      "emergency": {
+        "number": "03",
+        "note": null
+      },
+      "crisis": {
+        "number": "8 (12) 229 389",
+        "note": null
+      }
+    },
+    {
+      "country": "TN",
+      "name": "Tunisia",
+      "region": "Africa",
+      "emergency": {
+        "number": "190",
+        "note": null
+      },
+      "crisis": {
+        "number": "8010 3666",
+        "note": null
+      }
+    },
+    {
+      "country": "TO",
+      "name": "Tonga",
+      "region": "Oceania",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "22091",
+        "note": null
+      }
+    },
+    {
+      "country": "TR",
+      "name": "Türkiye",
+      "region": "Asia",
+      "emergency": {
+        "number": "112",
+        "note": "112 or 911"
+      },
+      "crisis": {
+        "number": "183",
+        "note": null
+      }
+    },
+    {
+      "country": "TT",
+      "name": "Trinidad & Tobago",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "811",
+        "note": null
+      },
+      "crisis": {
+        "number": "800-5588",
+        "note": null
+      }
+    },
+    {
+      "country": "TV",
+      "name": "Tuvalu",
+      "region": "Oceania",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "TW",
+      "name": "Taiwan",
+      "region": "Asia",
+      "emergency": {
+        "number": "119",
+        "note": null
+      },
+      "crisis": {
+        "number": "1925",
+        "note": null
+      }
+    },
+    {
+      "country": "TZ",
+      "name": "Tanzania",
+      "region": "Africa",
+      "emergency": {
+        "number": "114",
+        "note": null
+      },
+      "crisis": {
+        "number": "199",
+        "note": null
+      }
+    },
+    {
+      "country": "UA",
+      "name": "Ukraine",
+      "region": "Europe",
+      "emergency": {
+        "number": "103",
+        "note": null
+      },
+      "crisis": {
+        "number": "0800100102",
+        "note": null
+      }
+    },
+    {
+      "country": "UG",
+      "name": "Uganda",
+      "region": "Africa",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "0800 21 21 21",
+        "note": null
+      }
+    },
+    {
+      "country": "US",
+      "name": "United States",
+      "region": "North America",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "988",
+        "note": null
+      }
+    },
+    {
+      "country": "UY",
+      "name": "Uruguay",
+      "region": "South America",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "0800 0767",
+        "note": null
+      }
+    },
+    {
+      "country": "UZ",
+      "name": "Uzbekistan",
+      "region": "Asia",
+      "emergency": {
+        "number": "103",
+        "note": null
+      },
+      "crisis": {
+        "number": "71 276 49 66",
+        "note": null
+      }
+    },
+    {
+      "country": "VA",
+      "name": "Vatican City",
+      "region": "Europe",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "06 7720 8977",
+        "note": null
+      }
+    },
+    {
+      "country": "VC",
+      "name": "St. Vincent & Grenadines",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "999",
+        "note": "999 or 911 or 112"
+      },
+      "crisis": {
+        "number": "(784) 456-1044",
+        "note": null
+      }
+    },
+    {
+      "country": "VE",
+      "name": "Venezuela",
+      "region": "South America",
+      "emergency": {
+        "number": "911",
+        "note": "911 and 171"
+      },
+      "crisis": {
+        "number": "0424-290-7338",
+        "note": null
+      }
+    },
+    {
+      "country": "VG",
+      "name": "British Virgin Islands",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "911",
+        "note": "911 or 999"
+      },
+      "crisis": null
+    },
+    {
+      "country": "VI",
+      "name": "U.S. Virgin Islands",
+      "region": "Caribbean",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "988",
+        "note": null
+      }
+    },
+    {
+      "country": "VN",
+      "name": "Vietnam",
+      "region": "Asia",
+      "emergency": {
+        "number": "115",
+        "note": null
+      },
+      "crisis": {
+        "number": "1900 6233",
+        "note": null
+      }
+    },
+    {
+      "country": "WF",
+      "name": "Wallis & Futuna",
+      "region": "Oceania",
+      "emergency": {
+        "number": "15",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "WS",
+      "name": "Samoa",
+      "region": "Oceania",
+      "emergency": {
+        "number": "999",
+        "note": null
+      },
+      "crisis": {
+        "number": "800 7874",
+        "note": null
+      }
+    },
+    {
+      "country": "XK",
+      "name": "Kosovo",
+      "region": "Europe",
+      "emergency": {
+        "number": "194",
+        "note": null
+      },
+      "crisis": {
+        "number": "0800 12345",
+        "note": null
+      }
+    },
+    {
+      "country": "YD",
+      "name": "Yemen",
+      "region": "Asia",
+      "emergency": {
+        "number": "191",
+        "note": null
+      },
+      "crisis": {
+        "number": "8000202",
+        "note": null
+      }
+    },
+    {
+      "country": "YT",
+      "name": "Mayotte",
+      "region": "Africa",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "3114",
+        "note": null
+      }
+    },
+    {
+      "country": "ZA",
+      "name": "South Africa",
+      "region": "Africa",
+      "emergency": {
+        "number": "10 177",
+        "note": null
+      },
+      "crisis": {
+        "number": "0800 567 567",
+        "note": null
+      }
+    },
+    {
+      "country": "ZM",
+      "name": "Zambia",
+      "region": "Africa",
+      "emergency": {
+        "number": "999",
+        "note": null
+      },
+      "crisis": {
+        "number": "096 026 4040",
+        "note": null
+      }
+    }
+  ]
+}

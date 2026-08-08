@@ -1,0 +1,72 @@
+{
+  "region": "North America",
+  "countries": 5,
+  "generatedAt": "2026-08-08",
+  "data": [
+    {
+      "country": "CA",
+      "name": "Canada",
+      "region": "North America",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "988",
+        "note": null
+      }
+    },
+    {
+      "country": "GL",
+      "name": "Greenland",
+      "region": "North America",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "801180",
+        "note": null
+      }
+    },
+    {
+      "country": "MX",
+      "name": "Mexico",
+      "region": "North America",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "55-5259-8121",
+        "note": null
+      }
+    },
+    {
+      "country": "PM",
+      "name": "St. Pierre & Miquelon",
+      "region": "North America",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "3114",
+        "note": null
+      }
+    },
+    {
+      "country": "US",
+      "name": "United States",
+      "region": "North America",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "988",
+        "note": null
+      }
+    }
+  ]
+}

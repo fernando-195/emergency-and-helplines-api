@@ -1,0 +1,13 @@
+{
+  "country": "NP",
+  "name": "Nepal",
+  "region": "Asia",
+  "emergency": {
+    "number": "102",
+    "note": null
+  },
+  "crisis": {
+    "number": "1166",
+    "note": null
+  }
+}

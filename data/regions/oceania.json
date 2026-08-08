@@ -1,0 +1,288 @@
+{
+  "region": "Oceania",
+  "countries": 23,
+  "generatedAt": "2026-08-08",
+  "data": [
+    {
+      "country": "AS",
+      "name": "American Samoa",
+      "region": "Oceania",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "988",
+        "note": null
+      }
+    },
+    {
+      "country": "AU",
+      "name": "Australia",
+      "region": "Oceania",
+      "emergency": {
+        "number": "000",
+        "note": null
+      },
+      "crisis": {
+        "number": "13 11 14",
+        "note": null
+      }
+    },
+    {
+      "country": "CK",
+      "name": "Cook Islands",
+      "region": "Oceania",
+      "emergency": {
+        "number": "999",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "FJ",
+      "name": "Fiji",
+      "region": "Oceania",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "1543",
+        "note": null
+      }
+    },
+    {
+      "country": "FM",
+      "name": "Micronesia",
+      "region": "Oceania",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "GU",
+      "name": "Guam",
+      "region": "Oceania",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "988",
+        "note": null
+      }
+    },
+    {
+      "country": "KI",
+      "name": "Kiribati",
+      "region": "Oceania",
+      "emergency": {
+        "number": "100",
+        "note": "100 or 999"
+      },
+      "crisis": {
+        "number": "189",
+        "note": null
+      }
+    },
+    {
+      "country": "MH",
+      "name": "Marshall Islands",
+      "region": "Oceania",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "988",
+        "note": null
+      }
+    },
+    {
+      "country": "MP",
+      "name": "Northern Mariana Islands",
+      "region": "Oceania",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "988",
+        "note": null
+      }
+    },
+    {
+      "country": "NC",
+      "name": "New Caledonia",
+      "region": "Oceania",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "05 30 30",
+        "note": null
+      }
+    },
+    {
+      "country": "NH",
+      "name": "Vanuatu",
+      "region": "Oceania",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "7716156 (",
+        "note": "7716156 (Vodafone) ; 7716155 (Digicel)"
+      }
+    },
+    {
+      "country": "NR",
+      "name": "Nauru",
+      "region": "Oceania",
+      "emergency": {
+        "number": "111",
+        "note": null
+      },
+      "crisis": {
+        "number": "249",
+        "note": null
+      }
+    },
+    {
+      "country": "NU",
+      "name": "Niue",
+      "region": "Oceania",
+      "emergency": {
+        "number": "683 4202",
+        "note": "(+683) 4202"
+      },
+      "crisis": null
+    },
+    {
+      "country": "NZ",
+      "name": "New Zealand",
+      "region": "Oceania",
+      "emergency": {
+        "number": "111",
+        "note": null
+      },
+      "crisis": {
+        "number": "1737",
+        "note": null
+      }
+    },
+    {
+      "country": "PF",
+      "name": "French Polynesia",
+      "region": "Oceania",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "444 767",
+        "note": "444 767 ; 89 20 25 23 (Vodafone) ; 87 20 25 23 (Vini)"
+      }
+    },
+    {
+      "country": "PG",
+      "name": "Papua New Guinea",
+      "region": "Oceania",
+      "emergency": {
+        "number": "111",
+        "note": null
+      },
+      "crisis": {
+        "number": "7147 1518",
+        "note": null
+      }
+    },
+    {
+      "country": "PW",
+      "name": "Palau",
+      "region": "Oceania",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "988",
+        "note": null
+      }
+    },
+    {
+      "country": "SB",
+      "name": "Solomon Islands",
+      "region": "Oceania",
+      "emergency": {
+        "number": "911",
+        "note": "911 or 999"
+      },
+      "crisis": {
+        "number": "699",
+        "note": null
+      }
+    },
+    {
+      "country": "TK",
+      "name": "Tokelau",
+      "region": "Oceania",
+      "emergency": {
+        "number": "690 2112",
+        "note": "(+690) 2112"
+      },
+      "crisis": null
+    },
+    {
+      "country": "TO",
+      "name": "Tonga",
+      "region": "Oceania",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "22091",
+        "note": null
+      }
+    },
+    {
+      "country": "TV",
+      "name": "Tuvalu",
+      "region": "Oceania",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "WF",
+      "name": "Wallis & Futuna",
+      "region": "Oceania",
+      "emergency": {
+        "number": "15",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "WS",
+      "name": "Samoa",
+      "region": "Oceania",
+      "emergency": {
+        "number": "999",
+        "note": null
+      },
+      "crisis": {
+        "number": "800 7874",
+        "note": null
+      }
+    }
+  ]
+}

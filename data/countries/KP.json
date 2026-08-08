@@ -1,0 +1,10 @@
+{
+  "country": "KP",
+  "name": "North Korea",
+  "region": "Asia",
+  "emergency": {
+    "number": "110",
+    "note": "110 or 8119"
+  },
+  "crisis": null
+}

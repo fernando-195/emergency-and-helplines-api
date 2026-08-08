@@ -1,0 +1,13 @@
+{
+  "country": "SY",
+  "name": "Syria",
+  "region": "Asia",
+  "emergency": {
+    "number": "110",
+    "note": null
+  },
+  "crisis": {
+    "number": "0944 868 444",
+    "note": null
+  }
+}

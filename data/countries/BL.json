@@ -1,0 +1,13 @@
+{
+  "country": "BL",
+  "name": "St. Barthélemy",
+  "region": "Caribbean",
+  "emergency": {
+    "number": "18",
+    "note": null
+  },
+  "crisis": {
+    "number": "3114",
+    "note": null
+  }
+}

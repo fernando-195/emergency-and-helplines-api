@@ -1,0 +1,13 @@
+{
+  "country": "PY",
+  "name": "Paraguay",
+  "region": "South America",
+  "emergency": {
+    "number": "911",
+    "note": null
+  },
+  "crisis": {
+    "number": "155",
+    "note": null
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "country": "EH",
+  "name": "Western Sahara",
+  "region": "Africa",
+  "emergency": {
+    "number": "150",
+    "note": null
+  },
+  "crisis": null
+}

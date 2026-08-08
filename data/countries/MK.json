@@ -1,0 +1,13 @@
+{
+  "country": "MK",
+  "name": "North Macedonia",
+  "region": "Europe",
+  "emergency": {
+    "number": "194",
+    "note": "194 or 112"
+  },
+  "crisis": {
+    "number": "070 390 632",
+    "note": null
+  }
+}

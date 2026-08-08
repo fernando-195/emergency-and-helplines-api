@@ -1,0 +1,13 @@
+{
+  "country": "TL",
+  "name": "Timor-Leste",
+  "region": "Asia",
+  "emergency": {
+    "number": "112",
+    "note": null
+  },
+  "crisis": {
+    "number": "7725 4597",
+    "note": null
+  }
+}

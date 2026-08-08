@@ -1,0 +1,10 @@
+{
+  "country": "AF",
+  "name": "Afghanistan",
+  "region": "Asia",
+  "emergency": {
+    "number": "112",
+    "note": null
+  },
+  "crisis": null
+}

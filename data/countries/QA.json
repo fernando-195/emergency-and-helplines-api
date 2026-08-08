@@ -1,0 +1,13 @@
+{
+  "country": "QA",
+  "name": "Qatar",
+  "region": "Asia",
+  "emergency": {
+    "number": "999",
+    "note": null
+  },
+  "crisis": {
+    "number": "16000",
+    "note": "16000 option 4"
+  }
+}

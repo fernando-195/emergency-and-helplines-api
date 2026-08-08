@@ -1,0 +1,13 @@
+{
+  "country": "TW",
+  "name": "Taiwan",
+  "region": "Asia",
+  "emergency": {
+    "number": "119",
+    "note": null
+  },
+  "crisis": {
+    "number": "1925",
+    "note": null
+  }
+}

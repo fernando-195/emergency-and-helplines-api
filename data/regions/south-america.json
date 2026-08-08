@@ -1,0 +1,199 @@
+{
+  "region": "South America",
+  "countries": 15,
+  "generatedAt": "2026-08-08",
+  "data": [
+    {
+      "country": "AR",
+      "name": "Argentina",
+      "region": "South America",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "0800 999 0091",
+        "note": null
+      }
+    },
+    {
+      "country": "BO",
+      "name": "Bolivia",
+      "region": "South America",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "800 11 3040",
+        "note": null
+      }
+    },
+    {
+      "country": "BR",
+      "name": "Brazil",
+      "region": "South America",
+      "emergency": {
+        "number": "192",
+        "note": null
+      },
+      "crisis": {
+        "number": "188",
+        "note": null
+      }
+    },
+    {
+      "country": "CL",
+      "name": "Chile",
+      "region": "South America",
+      "emergency": {
+        "number": "131",
+        "note": null
+      },
+      "crisis": {
+        "number": "*4141",
+        "note": null
+      }
+    },
+    {
+      "country": "CO",
+      "name": "Colombia",
+      "region": "South America",
+      "emergency": {
+        "number": "125",
+        "note": null
+      },
+      "crisis": {
+        "number": "106",
+        "note": null
+      }
+    },
+    {
+      "country": "EC",
+      "name": "Ecuador",
+      "region": "South America",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "171",
+        "note": "171 option 6"
+      }
+    },
+    {
+      "country": "FK",
+      "name": "Falkland Islands",
+      "region": "South America",
+      "emergency": {
+        "number": "112",
+        "note": "112 or 999"
+      },
+      "crisis": {
+        "number": "51515",
+        "note": null
+      }
+    },
+    {
+      "country": "GF",
+      "name": "French Guiana",
+      "region": "South America",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "3114",
+        "note": null
+      }
+    },
+    {
+      "country": "GS",
+      "name": "South Georgia & South Sandwich Islands",
+      "region": "South America",
+      "emergency": {
+        "number": "999",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "GY",
+      "name": "Guyana",
+      "region": "South America",
+      "emergency": {
+        "number": "913",
+        "note": null
+      },
+      "crisis": {
+        "number": "915",
+        "note": null
+      }
+    },
+    {
+      "country": "PE",
+      "name": "Peru",
+      "region": "South America",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "113",
+        "note": "113 option 5"
+      }
+    },
+    {
+      "country": "PY",
+      "name": "Paraguay",
+      "region": "South America",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "155",
+        "note": null
+      }
+    },
+    {
+      "country": "SR",
+      "name": "Suriname",
+      "region": "South America",
+      "emergency": {
+        "number": "115",
+        "note": null
+      },
+      "crisis": {
+        "number": "123",
+        "note": null
+      }
+    },
+    {
+      "country": "UY",
+      "name": "Uruguay",
+      "region": "South America",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "0800 0767",
+        "note": null
+      }
+    },
+    {
+      "country": "VE",
+      "name": "Venezuela",
+      "region": "South America",
+      "emergency": {
+        "number": "911",
+        "note": "911 and 171"
+      },
+      "crisis": {
+        "number": "0424-290-7338",
+        "note": null
+      }
+    }
+  ]
+}

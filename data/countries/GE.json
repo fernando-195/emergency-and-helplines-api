@@ -1,0 +1,13 @@
+{
+  "country": "GE",
+  "name": "Georgia",
+  "region": "Asia",
+  "emergency": {
+    "number": "112",
+    "note": null
+  },
+  "crisis": {
+    "number": "116 123",
+    "note": null
+  }
+}

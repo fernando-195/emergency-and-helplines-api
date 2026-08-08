@@ -1,0 +1,13 @@
+{
+  "country": "HK",
+  "name": "Hong Kong SAR China",
+  "region": "Asia",
+  "emergency": {
+    "number": "999",
+    "note": null
+  },
+  "crisis": {
+    "number": "2389 2222",
+    "note": null
+  }
+}

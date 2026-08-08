@@ -1,0 +1,13 @@
+{
+  "country": "SN",
+  "name": "Senegal",
+  "region": "Africa",
+  "emergency": {
+    "number": "18",
+    "note": null
+  },
+  "crisis": {
+    "number": "33 889 38 00",
+    "note": null
+  }
+}

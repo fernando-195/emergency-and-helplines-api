@@ -1,0 +1,13 @@
+{
+  "country": "GL",
+  "name": "Greenland",
+  "region": "North America",
+  "emergency": {
+    "number": "112",
+    "note": null
+  },
+  "crisis": {
+    "number": "801180",
+    "note": null
+  }
+}

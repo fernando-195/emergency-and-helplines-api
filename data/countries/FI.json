@@ -1,0 +1,13 @@
+{
+  "country": "FI",
+  "name": "Finland",
+  "region": "Europe",
+  "emergency": {
+    "number": "112",
+    "note": null
+  },
+  "crisis": {
+    "number": "09 2525 0111",
+    "note": null
+  }
+}

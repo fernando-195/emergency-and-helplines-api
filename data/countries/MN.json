@@ -1,0 +1,13 @@
+{
+  "country": "MN",
+  "name": "Mongolia",
+  "region": "Asia",
+  "emergency": {
+    "number": "105",
+    "note": null
+  },
+  "crisis": {
+    "number": "1800-2000",
+    "note": null
+  }
+}

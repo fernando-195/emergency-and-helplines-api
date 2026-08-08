@@ -1,0 +1,13 @@
+{
+  "country": "KH",
+  "name": "Cambodia",
+  "region": "Asia",
+  "emergency": {
+    "number": "119",
+    "note": null
+  },
+  "crisis": {
+    "number": "017 222 372",
+    "note": null
+  }
+}

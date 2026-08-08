@@ -1,0 +1,13 @@
+{
+  "country": "NG",
+  "name": "Nigeria",
+  "region": "Africa",
+  "emergency": {
+    "number": "112",
+    "note": null
+  },
+  "crisis": {
+    "number": "0800 078 7746",
+    "note": null
+  }
+}

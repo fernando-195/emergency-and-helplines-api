@@ -1,0 +1,10 @@
+{
+  "country": "TK",
+  "name": "Tokelau",
+  "region": "Oceania",
+  "emergency": {
+    "number": "690 2112",
+    "note": "(+690) 2112"
+  },
+  "crisis": null
+}

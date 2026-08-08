@@ -1,0 +1,13 @@
+{
+  "country": "FO",
+  "name": "Faroe Islands",
+  "region": "Europe",
+  "emergency": {
+    "number": "112",
+    "note": null
+  },
+  "crisis": {
+    "number": "00 45 70 201 201",
+    "note": null
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "country": "DZ",
+  "name": "Algeria",
+  "region": "Africa",
+  "emergency": {
+    "number": "14",
+    "note": null
+  },
+  "crisis": {
+    "number": "0560 00 13 38",
+    "note": null
+  }
+}

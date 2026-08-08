@@ -1,0 +1,13 @@
+{
+  "country": "YD",
+  "name": "Yemen",
+  "region": "Asia",
+  "emergency": {
+    "number": "191",
+    "note": null
+  },
+  "crisis": {
+    "number": "8000202",
+    "note": null
+  }
+}

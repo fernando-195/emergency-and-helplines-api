@@ -1,0 +1,13 @@
+{
+  "country": "SV",
+  "name": "El Salvador",
+  "region": "Central America",
+  "emergency": {
+    "number": "132",
+    "note": null
+  },
+  "crisis": {
+    "number": "126",
+    "note": null
+  }
+}

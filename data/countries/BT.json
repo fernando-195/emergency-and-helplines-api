@@ -1,0 +1,13 @@
+{
+  "country": "BT",
+  "name": "Bhutan",
+  "region": "Asia",
+  "emergency": {
+    "number": "112",
+    "note": null
+  },
+  "crisis": {
+    "number": "1010",
+    "note": null
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "country": "TG",
+  "name": "Togo",
+  "region": "Africa",
+  "emergency": {
+    "number": "8200",
+    "note": null
+  },
+  "crisis": {
+    "number": "2221 1234",
+    "note": null
+  }
+}

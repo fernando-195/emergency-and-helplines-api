@@ -1,0 +1,10 @@
+{
+  "country": "AC",
+  "name": "Ascension Island",
+  "region": "Africa",
+  "emergency": {
+    "number": "999",
+    "note": null
+  },
+  "crisis": null
+}

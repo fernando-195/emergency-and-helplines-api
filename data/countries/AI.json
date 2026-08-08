@@ -1,0 +1,13 @@
+{
+  "country": "AI",
+  "name": "Anguilla",
+  "region": "Caribbean",
+  "emergency": {
+    "number": "911",
+    "note": null
+  },
+  "crisis": {
+    "number": "(264) 772-7233",
+    "note": null
+  }
+}

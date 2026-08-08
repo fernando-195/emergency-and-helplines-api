@@ -1,0 +1,10 @@
+{
+  "country": "BF",
+  "name": "Burkina Faso",
+  "region": "Africa",
+  "emergency": {
+    "number": "112",
+    "note": null
+  },
+  "crisis": null
+}

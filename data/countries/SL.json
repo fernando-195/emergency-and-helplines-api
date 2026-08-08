@@ -1,0 +1,13 @@
+{
+  "country": "SL",
+  "name": "Sierra Leone",
+  "region": "Africa",
+  "emergency": {
+    "number": "999",
+    "note": null
+  },
+  "crisis": {
+    "number": "078 522 787",
+    "note": null
+  }
+}

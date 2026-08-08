@@ -1,0 +1,13 @@
+{
+  "country": "ST",
+  "name": "São Tomé & Príncipe",
+  "region": "Africa",
+  "emergency": {
+    "number": "112",
+    "note": null
+  },
+  "crisis": {
+    "number": "222 2222",
+    "note": null
+  }
+}

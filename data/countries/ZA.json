@@ -1,0 +1,13 @@
+{
+  "country": "ZA",
+  "name": "South Africa",
+  "region": "Africa",
+  "emergency": {
+    "number": "10 177",
+    "note": null
+  },
+  "crisis": {
+    "number": "0800 567 567",
+    "note": null
+  }
+}

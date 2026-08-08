@@ -1,0 +1,13 @@
+{
+  "country": "TH",
+  "name": "Thailand",
+  "region": "Asia",
+  "emergency": {
+    "number": "1669",
+    "note": null
+  },
+  "crisis": {
+    "number": "1323",
+    "note": null
+  }
+}

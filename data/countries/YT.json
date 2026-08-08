@@ -1,0 +1,13 @@
+{
+  "country": "YT",
+  "name": "Mayotte",
+  "region": "Africa",
+  "emergency": {
+    "number": "112",
+    "note": null
+  },
+  "crisis": {
+    "number": "3114",
+    "note": null
+  }
+}

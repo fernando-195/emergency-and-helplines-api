@@ -1,0 +1,13 @@
+{
+  "country": "GI",
+  "name": "Gibraltar",
+  "region": "Europe",
+  "emergency": {
+    "number": "190",
+    "note": "190 or 112 or 999"
+  },
+  "crisis": {
+    "number": "116 123",
+    "note": null
+  }
+}

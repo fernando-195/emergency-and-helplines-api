@@ -1,0 +1,13 @@
+{
+  "country": "KZ",
+  "name": "Kazakhstan",
+  "region": "Asia",
+  "emergency": {
+    "number": "112",
+    "note": null
+  },
+  "crisis": {
+    "number": "150",
+    "note": null
+  }
+}

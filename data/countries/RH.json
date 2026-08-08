@@ -1,0 +1,13 @@
+{
+  "country": "RH",
+  "name": "Zimbabwe",
+  "region": "Africa",
+  "emergency": {
+    "number": "999",
+    "note": null
+  },
+  "crisis": {
+    "number": "029 226 5000",
+    "note": null
+  }
+}

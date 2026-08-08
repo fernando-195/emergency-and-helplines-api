@@ -1,0 +1,13 @@
+{
+  "country": "ET",
+  "name": "Ethiopia",
+  "region": "Africa",
+  "emergency": {
+    "number": "911",
+    "note": null
+  },
+  "crisis": {
+    "number": "8335",
+    "note": null
+  }
+}

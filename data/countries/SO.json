@@ -1,0 +1,10 @@
+{
+  "country": "SO",
+  "name": "Somalia",
+  "region": "Africa",
+  "emergency": {
+    "number": "999",
+    "note": null
+  },
+  "crisis": null
+}

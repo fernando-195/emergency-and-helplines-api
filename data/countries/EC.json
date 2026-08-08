@@ -1,0 +1,13 @@
+{
+  "country": "EC",
+  "name": "Ecuador",
+  "region": "South America",
+  "emergency": {
+    "number": "911",
+    "note": null
+  },
+  "crisis": {
+    "number": "171",
+    "note": "171 option 6"
+  }
+}

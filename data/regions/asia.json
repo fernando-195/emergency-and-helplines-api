@@ -1,0 +1,655 @@
+{
+  "region": "Asia",
+  "countries": 51,
+  "generatedAt": "2026-08-08",
+  "data": [
+    {
+      "country": "AE",
+      "name": "United Arab Emirates",
+      "region": "Asia",
+      "emergency": {
+        "number": "998",
+        "note": null
+      },
+      "crisis": {
+        "number": "800 4673",
+        "note": null
+      }
+    },
+    {
+      "country": "AF",
+      "name": "Afghanistan",
+      "region": "Asia",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "BD",
+      "name": "Bangladesh",
+      "region": "Asia",
+      "emergency": {
+        "number": "999",
+        "note": null
+      },
+      "crisis": {
+        "number": "09638 881 888",
+        "note": null
+      }
+    },
+    {
+      "country": "BH",
+      "name": "Bahrain",
+      "region": "Asia",
+      "emergency": {
+        "number": "999",
+        "note": null
+      },
+      "crisis": {
+        "number": "3844 7588 (",
+        "note": "3844 7588 (English) ; 6671 0901 (Arabic)"
+      }
+    },
+    {
+      "country": "BN",
+      "name": "Brunei",
+      "region": "Asia",
+      "emergency": {
+        "number": "991",
+        "note": null
+      },
+      "crisis": {
+        "number": "145",
+        "note": null
+      }
+    },
+    {
+      "country": "BT",
+      "name": "Bhutan",
+      "region": "Asia",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "1010",
+        "note": null
+      }
+    },
+    {
+      "country": "CC",
+      "name": "Cocos (Keeling) Islands",
+      "region": "Asia",
+      "emergency": {
+        "number": "000",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "CN",
+      "name": "China",
+      "region": "Asia",
+      "emergency": {
+        "number": "120",
+        "note": null
+      },
+      "crisis": {
+        "number": "12355",
+        "note": null
+      }
+    },
+    {
+      "country": "CX",
+      "name": "Christmas Island",
+      "region": "Asia",
+      "emergency": {
+        "number": "000",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "GE",
+      "name": "Georgia",
+      "region": "Asia",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "116 123",
+        "note": null
+      }
+    },
+    {
+      "country": "HK",
+      "name": "Hong Kong SAR China",
+      "region": "Asia",
+      "emergency": {
+        "number": "999",
+        "note": null
+      },
+      "crisis": {
+        "number": "2389 2222",
+        "note": null
+      }
+    },
+    {
+      "country": "ID",
+      "name": "Indonesia",
+      "region": "Asia",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "119",
+        "note": "119 option 8"
+      }
+    },
+    {
+      "country": "IL",
+      "name": "Israel",
+      "region": "Asia",
+      "emergency": {
+        "number": "101",
+        "note": null
+      },
+      "crisis": {
+        "number": "1201",
+        "note": null
+      }
+    },
+    {
+      "country": "IN",
+      "name": "India",
+      "region": "Asia",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "14416",
+        "note": null
+      }
+    },
+    {
+      "country": "IO",
+      "name": "British Indian Ocean Territory",
+      "region": "Asia",
+      "emergency": {
+        "number": "112",
+        "note": "112 or 999"
+      },
+      "crisis": null
+    },
+    {
+      "country": "IQ",
+      "name": "Iraq",
+      "region": "Asia",
+      "emergency": {
+        "number": "112",
+        "note": "112 or 911"
+      },
+      "crisis": {
+        "number": "0750 309 6649",
+        "note": "0750 309 6649 ; 053 339 0840"
+      }
+    },
+    {
+      "country": "IR",
+      "name": "Iran",
+      "region": "Asia",
+      "emergency": {
+        "number": "115",
+        "note": null
+      },
+      "crisis": {
+        "number": "1480",
+        "note": null
+      }
+    },
+    {
+      "country": "JO",
+      "name": "Jordan",
+      "region": "Asia",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "079 544 0416",
+        "note": null
+      }
+    },
+    {
+      "country": "JP",
+      "name": "Japan",
+      "region": "Asia",
+      "emergency": {
+        "number": "119",
+        "note": null
+      },
+      "crisis": {
+        "number": "0120 061 338",
+        "note": null
+      }
+    },
+    {
+      "country": "KG",
+      "name": "Kyrgyzstan",
+      "region": "Asia",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "111",
+        "note": null
+      }
+    },
+    {
+      "country": "KH",
+      "name": "Cambodia",
+      "region": "Asia",
+      "emergency": {
+        "number": "119",
+        "note": null
+      },
+      "crisis": {
+        "number": "017 222 372",
+        "note": null
+      }
+    },
+    {
+      "country": "KP",
+      "name": "North Korea",
+      "region": "Asia",
+      "emergency": {
+        "number": "110",
+        "note": "110 or 8119"
+      },
+      "crisis": null
+    },
+    {
+      "country": "KR",
+      "name": "South Korea",
+      "region": "Asia",
+      "emergency": {
+        "number": "119",
+        "note": null
+      },
+      "crisis": {
+        "number": "109",
+        "note": null
+      }
+    },
+    {
+      "country": "KW",
+      "name": "Kuwait",
+      "region": "Asia",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "147",
+        "note": null
+      }
+    },
+    {
+      "country": "KZ",
+      "name": "Kazakhstan",
+      "region": "Asia",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "150",
+        "note": null
+      }
+    },
+    {
+      "country": "LA",
+      "name": "Laos",
+      "region": "Asia",
+      "emergency": {
+        "number": "195",
+        "note": null
+      },
+      "crisis": {
+        "number": "1362",
+        "note": null
+      }
+    },
+    {
+      "country": "LB",
+      "name": "Lebanon",
+      "region": "Asia",
+      "emergency": {
+        "number": "140",
+        "note": null
+      },
+      "crisis": {
+        "number": "1564",
+        "note": null
+      }
+    },
+    {
+      "country": "LK",
+      "name": "Sri Lanka",
+      "region": "Asia",
+      "emergency": {
+        "number": "110",
+        "note": null
+      },
+      "crisis": {
+        "number": "1926",
+        "note": null
+      }
+    },
+    {
+      "country": "MM",
+      "name": "Myanmar (Burma)",
+      "region": "Asia",
+      "emergency": {
+        "number": "999",
+        "note": null
+      },
+      "crisis": {
+        "number": "09 765 400 200",
+        "note": null
+      }
+    },
+    {
+      "country": "MN",
+      "name": "Mongolia",
+      "region": "Asia",
+      "emergency": {
+        "number": "105",
+        "note": null
+      },
+      "crisis": {
+        "number": "1800-2000",
+        "note": null
+      }
+    },
+    {
+      "country": "MO",
+      "name": "Macao SAR China",
+      "region": "Asia",
+      "emergency": {
+        "number": "999",
+        "note": null
+      },
+      "crisis": {
+        "number": "2852 5222",
+        "note": null
+      }
+    },
+    {
+      "country": "MV",
+      "name": "Maldives",
+      "region": "Asia",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "1677",
+        "note": null
+      }
+    },
+    {
+      "country": "MY",
+      "name": "Malaysia",
+      "region": "Asia",
+      "emergency": {
+        "number": "999",
+        "note": null
+      },
+      "crisis": {
+        "number": "15555",
+        "note": null
+      }
+    },
+    {
+      "country": "NP",
+      "name": "Nepal",
+      "region": "Asia",
+      "emergency": {
+        "number": "102",
+        "note": null
+      },
+      "crisis": {
+        "number": "1166",
+        "note": null
+      }
+    },
+    {
+      "country": "OM",
+      "name": "Oman",
+      "region": "Asia",
+      "emergency": {
+        "number": "9999",
+        "note": null
+      },
+      "crisis": {
+        "number": "800-77788",
+        "note": null
+      }
+    },
+    {
+      "country": "PH",
+      "name": "Philippines",
+      "region": "Asia",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "1553",
+        "note": null
+      }
+    },
+    {
+      "country": "PK",
+      "name": "Pakistan",
+      "region": "Asia",
+      "emergency": {
+        "number": "115",
+        "note": "115 and 1122"
+      },
+      "crisis": {
+        "number": "0304 111 1741",
+        "note": null
+      }
+    },
+    {
+      "country": "PS",
+      "name": "Palestinian Territories",
+      "region": "Asia",
+      "emergency": {
+        "number": "101",
+        "note": null
+      },
+      "crisis": {
+        "number": "164",
+        "note": null
+      }
+    },
+    {
+      "country": "QA",
+      "name": "Qatar",
+      "region": "Asia",
+      "emergency": {
+        "number": "999",
+        "note": null
+      },
+      "crisis": {
+        "number": "16000",
+        "note": "16000 option 4"
+      }
+    },
+    {
+      "country": "SA",
+      "name": "Saudi Arabia",
+      "region": "Asia",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "9200 33360",
+        "note": null
+      }
+    },
+    {
+      "country": "SG",
+      "name": "Singapore",
+      "region": "Asia",
+      "emergency": {
+        "number": "995",
+        "note": null
+      },
+      "crisis": {
+        "number": "1767",
+        "note": null
+      }
+    },
+    {
+      "country": "SY",
+      "name": "Syria",
+      "region": "Asia",
+      "emergency": {
+        "number": "110",
+        "note": null
+      },
+      "crisis": {
+        "number": "0944 868 444",
+        "note": null
+      }
+    },
+    {
+      "country": "TH",
+      "name": "Thailand",
+      "region": "Asia",
+      "emergency": {
+        "number": "1669",
+        "note": null
+      },
+      "crisis": {
+        "number": "1323",
+        "note": null
+      }
+    },
+    {
+      "country": "TJ",
+      "name": "Tajikistan",
+      "region": "Asia",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "935 50 50 50",
+        "note": null
+      }
+    },
+    {
+      "country": "TL",
+      "name": "Timor-Leste",
+      "region": "Asia",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "7725 4597",
+        "note": null
+      }
+    },
+    {
+      "country": "TM",
+      "name": "Turkmenistan",
+      "region": "Asia",
+      "emergency": {
+        "number": "03",
+        "note": null
+      },
+      "crisis": {
+        "number": "8 (12) 229 389",
+        "note": null
+      }
+    },
+    {
+      "country": "TR",
+      "name": "Türkiye",
+      "region": "Asia",
+      "emergency": {
+        "number": "112",
+        "note": "112 or 911"
+      },
+      "crisis": {
+        "number": "183",
+        "note": null
+      }
+    },
+    {
+      "country": "TW",
+      "name": "Taiwan",
+      "region": "Asia",
+      "emergency": {
+        "number": "119",
+        "note": null
+      },
+      "crisis": {
+        "number": "1925",
+        "note": null
+      }
+    },
+    {
+      "country": "UZ",
+      "name": "Uzbekistan",
+      "region": "Asia",
+      "emergency": {
+        "number": "103",
+        "note": null
+      },
+      "crisis": {
+        "number": "71 276 49 66",
+        "note": null
+      }
+    },
+    {
+      "country": "VN",
+      "name": "Vietnam",
+      "region": "Asia",
+      "emergency": {
+        "number": "115",
+        "note": null
+      },
+      "crisis": {
+        "number": "1900 6233",
+        "note": null
+      }
+    },
+    {
+      "country": "YD",
+      "name": "Yemen",
+      "region": "Asia",
+      "emergency": {
+        "number": "191",
+        "note": null
+      },
+      "crisis": {
+        "number": "8000202",
+        "note": null
+      }
+    }
+  ]
+}

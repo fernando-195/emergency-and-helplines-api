@@ -1,0 +1,13 @@
+{
+  "country": "UG",
+  "name": "Uganda",
+  "region": "Africa",
+  "emergency": {
+    "number": "911",
+    "note": null
+  },
+  "crisis": {
+    "number": "0800 21 21 21",
+    "note": null
+  }
+}

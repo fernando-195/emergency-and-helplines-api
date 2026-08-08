@@ -1,0 +1,13 @@
+{
+  "country": "JP",
+  "name": "Japan",
+  "region": "Asia",
+  "emergency": {
+    "number": "119",
+    "note": null
+  },
+  "crisis": {
+    "number": "0120 061 338",
+    "note": null
+  }
+}

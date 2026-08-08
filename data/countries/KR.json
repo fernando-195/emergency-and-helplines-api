@@ -1,0 +1,13 @@
+{
+  "country": "KR",
+  "name": "South Korea",
+  "region": "Asia",
+  "emergency": {
+    "number": "119",
+    "note": null
+  },
+  "crisis": {
+    "number": "109",
+    "note": null
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "country": "DM",
+  "name": "Dominica",
+  "region": "Caribbean",
+  "emergency": {
+    "number": "999",
+    "note": null
+  },
+  "crisis": {
+    "number": "767-317-3030",
+    "note": null
+  }
+}

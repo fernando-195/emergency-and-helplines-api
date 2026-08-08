@@ -1,0 +1,13 @@
+{
+  "country": "KG",
+  "name": "Kyrgyzstan",
+  "region": "Asia",
+  "emergency": {
+    "number": "112",
+    "note": null
+  },
+  "crisis": {
+    "number": "111",
+    "note": null
+  }
+}

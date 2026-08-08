@@ -1,0 +1,13 @@
+{
+  "country": "MT",
+  "name": "Malta",
+  "region": "Europe",
+  "emergency": {
+    "number": "112",
+    "note": null
+  },
+  "crisis": {
+    "number": "179",
+    "note": null
+  }
+}

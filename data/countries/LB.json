@@ -1,0 +1,13 @@
+{
+  "country": "LB",
+  "name": "Lebanon",
+  "region": "Asia",
+  "emergency": {
+    "number": "140",
+    "note": null
+  },
+  "crisis": {
+    "number": "1564",
+    "note": null
+  }
+}

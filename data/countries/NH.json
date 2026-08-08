@@ -1,0 +1,13 @@
+{
+  "country": "NH",
+  "name": "Vanuatu",
+  "region": "Oceania",
+  "emergency": {
+    "number": "112",
+    "note": null
+  },
+  "crisis": {
+    "number": "7716156 (",
+    "note": "7716156 (Vodafone) ; 7716155 (Digicel)"
+  }
+}

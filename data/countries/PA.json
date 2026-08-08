@@ -1,0 +1,13 @@
+{
+  "country": "PA",
+  "name": "Panama",
+  "region": "Central America",
+  "emergency": {
+    "number": "911",
+    "note": null
+  },
+  "crisis": {
+    "number": "147",
+    "note": null
+  }
+}

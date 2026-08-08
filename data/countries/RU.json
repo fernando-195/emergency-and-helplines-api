@@ -1,0 +1,13 @@
+{
+  "country": "RU",
+  "name": "Russia",
+  "region": "Europe",
+  "emergency": {
+    "number": "103",
+    "note": "103 or 112"
+  },
+  "crisis": {
+    "number": "8 (495) 989-50-50",
+    "note": null
+  }
+}

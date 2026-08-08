@@ -1,0 +1,10 @@
+{
+  "country": "GM",
+  "name": "Gambia",
+  "region": "Africa",
+  "emergency": {
+    "number": "116",
+    "note": null
+  },
+  "crisis": null
+}

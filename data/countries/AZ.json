@@ -1,0 +1,10 @@
+{
+  "country": "AZ",
+  "name": "Azerbaijan",
+  "region": "Europe",
+  "emergency": {
+    "number": "112",
+    "note": "112 or 103"
+  },
+  "crisis": null
+}

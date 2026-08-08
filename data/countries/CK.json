@@ -1,0 +1,10 @@
+{
+  "country": "CK",
+  "name": "Cook Islands",
+  "region": "Oceania",
+  "emergency": {
+    "number": "999",
+    "note": null
+  },
+  "crisis": null
+}

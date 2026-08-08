@@ -1,0 +1,13 @@
+{
+  "country": "SM",
+  "name": "San Marino",
+  "region": "Europe",
+  "emergency": {
+    "number": "118",
+    "note": null
+  },
+  "crisis": {
+    "number": "800 995 988",
+    "note": null
+  }
+}

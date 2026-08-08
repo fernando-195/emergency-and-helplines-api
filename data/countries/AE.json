@@ -1,0 +1,13 @@
+{
+  "country": "AE",
+  "name": "United Arab Emirates",
+  "region": "Asia",
+  "emergency": {
+    "number": "998",
+    "note": null
+  },
+  "crisis": {
+    "number": "800 4673",
+    "note": null
+  }
+}

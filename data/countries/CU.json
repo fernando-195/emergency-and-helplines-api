@@ -1,0 +1,13 @@
+{
+  "country": "CU",
+  "name": "Cuba",
+  "region": "Caribbean",
+  "emergency": {
+    "number": "104",
+    "note": null
+  },
+  "crisis": {
+    "number": "103",
+    "note": null
+  }
+}

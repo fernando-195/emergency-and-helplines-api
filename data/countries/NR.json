@@ -1,0 +1,13 @@
+{
+  "country": "NR",
+  "name": "Nauru",
+  "region": "Oceania",
+  "emergency": {
+    "number": "111",
+    "note": null
+  },
+  "crisis": {
+    "number": "249",
+    "note": null
+  }
+}

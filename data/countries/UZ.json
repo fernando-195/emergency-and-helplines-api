@@ -1,0 +1,13 @@
+{
+  "country": "UZ",
+  "name": "Uzbekistan",
+  "region": "Asia",
+  "emergency": {
+    "number": "103",
+    "note": null
+  },
+  "crisis": {
+    "number": "71 276 49 66",
+    "note": null
+  }
+}

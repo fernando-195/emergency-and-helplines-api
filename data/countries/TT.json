@@ -1,0 +1,13 @@
+{
+  "country": "TT",
+  "name": "Trinidad & Tobago",
+  "region": "Caribbean",
+  "emergency": {
+    "number": "811",
+    "note": null
+  },
+  "crisis": {
+    "number": "800-5588",
+    "note": null
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "country": "TJ",
+  "name": "Tajikistan",
+  "region": "Asia",
+  "emergency": {
+    "number": "112",
+    "note": null
+  },
+  "crisis": {
+    "number": "935 50 50 50",
+    "note": null
+  }
+}

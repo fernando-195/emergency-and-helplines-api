@@ -1,0 +1,696 @@
+{
+  "region": "Africa",
+  "countries": 59,
+  "generatedAt": "2026-08-08",
+  "data": [
+    {
+      "country": "AC",
+      "name": "Ascension Island",
+      "region": "Africa",
+      "emergency": {
+        "number": "999",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "AO",
+      "name": "Angola",
+      "region": "Africa",
+      "emergency": {
+        "number": "112",
+        "note": "112/116"
+      },
+      "crisis": null
+    },
+    {
+      "country": "BF",
+      "name": "Burkina Faso",
+      "region": "Africa",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "BI",
+      "name": "Burundi",
+      "region": "Africa",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "69 77 63 67",
+        "note": null
+      }
+    },
+    {
+      "country": "BJ",
+      "name": "Benin",
+      "region": "Africa",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "7344",
+        "note": null
+      }
+    },
+    {
+      "country": "BW",
+      "name": "Botswana",
+      "region": "Africa",
+      "emergency": {
+        "number": "997",
+        "note": null
+      },
+      "crisis": {
+        "number": "75 527 590",
+        "note": null
+      }
+    },
+    {
+      "country": "CD",
+      "name": "Congo - Kinshasa",
+      "region": "Africa",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "CF",
+      "name": "Central African Republic",
+      "region": "Africa",
+      "emergency": {
+        "number": "1220",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "CG",
+      "name": "Congo - Brazzaville",
+      "region": "Africa",
+      "emergency": {
+        "number": "117",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "CI",
+      "name": "Côte d’Ivoire",
+      "region": "Africa",
+      "emergency": {
+        "number": "185",
+        "note": null
+      },
+      "crisis": {
+        "number": "143",
+        "note": null
+      }
+    },
+    {
+      "country": "CM",
+      "name": "Cameroon",
+      "region": "Africa",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "242 136 136",
+        "note": null
+      }
+    },
+    {
+      "country": "CV",
+      "name": "Cape Verde",
+      "region": "Africa",
+      "emergency": {
+        "number": "130",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "DJ",
+      "name": "Djibouti",
+      "region": "Africa",
+      "emergency": {
+        "number": "19",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "DZ",
+      "name": "Algeria",
+      "region": "Africa",
+      "emergency": {
+        "number": "14",
+        "note": null
+      },
+      "crisis": {
+        "number": "0560 00 13 38",
+        "note": null
+      }
+    },
+    {
+      "country": "EG",
+      "name": "Egypt",
+      "region": "Africa",
+      "emergency": {
+        "number": "123",
+        "note": null
+      },
+      "crisis": {
+        "number": "16328",
+        "note": null
+      }
+    },
+    {
+      "country": "EH",
+      "name": "Western Sahara",
+      "region": "Africa",
+      "emergency": {
+        "number": "150",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "ER",
+      "name": "Eritrea",
+      "region": "Africa",
+      "emergency": {
+        "number": "114",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "ET",
+      "name": "Ethiopia",
+      "region": "Africa",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "8335",
+        "note": null
+      }
+    },
+    {
+      "country": "GA",
+      "name": "Gabon",
+      "region": "Africa",
+      "emergency": {
+        "number": "1300",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "GH",
+      "name": "Ghana",
+      "region": "Africa",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "024 447 1279",
+        "note": null
+      }
+    },
+    {
+      "country": "GM",
+      "name": "Gambia",
+      "region": "Africa",
+      "emergency": {
+        "number": "116",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "GN",
+      "name": "Guinea",
+      "region": "Africa",
+      "emergency": {
+        "number": "18",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "GQ",
+      "name": "Equatorial Guinea",
+      "region": "Africa",
+      "emergency": {
+        "number": "115",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "GW",
+      "name": "Guinea-Bissau",
+      "region": "Africa",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "KE",
+      "name": "Kenya",
+      "region": "Africa",
+      "emergency": {
+        "number": "112",
+        "note": "112 or 999 or 911"
+      },
+      "crisis": {
+        "number": "0722 178 177",
+        "note": null
+      }
+    },
+    {
+      "country": "KM",
+      "name": "Comoros",
+      "region": "Africa",
+      "emergency": {
+        "number": "772-03-73",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "LR",
+      "name": "Liberia",
+      "region": "Africa",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "6534308",
+        "note": null
+      }
+    },
+    {
+      "country": "LS",
+      "name": "Lesotho",
+      "region": "Africa",
+      "emergency": {
+        "number": "121",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "LY",
+      "name": "Libya",
+      "region": "Africa",
+      "emergency": {
+        "number": "1515",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "MA",
+      "name": "Morocco",
+      "region": "Africa",
+      "emergency": {
+        "number": "15",
+        "note": null
+      },
+      "crisis": {
+        "number": "0522 25 25 25",
+        "note": null
+      }
+    },
+    {
+      "country": "MG",
+      "name": "Madagascar",
+      "region": "Africa",
+      "emergency": {
+        "number": "124",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "ML",
+      "name": "Mali",
+      "region": "Africa",
+      "emergency": {
+        "number": "15",
+        "note": null
+      },
+      "crisis": {
+        "number": "8000 1115",
+        "note": null
+      }
+    },
+    {
+      "country": "MR",
+      "name": "Mauritania",
+      "region": "Africa",
+      "emergency": {
+        "number": "101",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "MU",
+      "name": "Mauritius",
+      "region": "Africa",
+      "emergency": {
+        "number": "114",
+        "note": null
+      },
+      "crisis": {
+        "number": "800 93 93",
+        "note": null
+      }
+    },
+    {
+      "country": "MW",
+      "name": "Malawi",
+      "region": "Africa",
+      "emergency": {
+        "number": "998",
+        "note": null
+      },
+      "crisis": {
+        "number": "0999 399 765 (",
+        "note": "0999 399 765 (Airtel) 885 400 502 (TNM)"
+      }
+    },
+    {
+      "country": "MZ",
+      "name": "Mozambique",
+      "region": "Africa",
+      "emergency": {
+        "number": "117",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "NE",
+      "name": "Niger",
+      "region": "Africa",
+      "emergency": {
+        "number": "15",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "NG",
+      "name": "Nigeria",
+      "region": "Africa",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "0800 078 7746",
+        "note": null
+      }
+    },
+    {
+      "country": "RE",
+      "name": "Réunion",
+      "region": "Africa",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "3114",
+        "note": null
+      }
+    },
+    {
+      "country": "RH",
+      "name": "Zimbabwe",
+      "region": "Africa",
+      "emergency": {
+        "number": "999",
+        "note": null
+      },
+      "crisis": {
+        "number": "029 226 5000",
+        "note": null
+      }
+    },
+    {
+      "country": "RW",
+      "name": "Rwanda",
+      "region": "Africa",
+      "emergency": {
+        "number": "912",
+        "note": null
+      },
+      "crisis": {
+        "number": "8015",
+        "note": null
+      }
+    },
+    {
+      "country": "SC",
+      "name": "Seychelles",
+      "region": "Africa",
+      "emergency": {
+        "number": "112",
+        "note": "112 or 999"
+      },
+      "crisis": {
+        "number": "432 3535",
+        "note": null
+      }
+    },
+    {
+      "country": "SD",
+      "name": "Sudan",
+      "region": "Africa",
+      "emergency": {
+        "number": "999",
+        "note": null
+      },
+      "crisis": {
+        "number": "011 555 253",
+        "note": null
+      }
+    },
+    {
+      "country": "SH",
+      "name": "St. Helena",
+      "region": "Africa",
+      "emergency": {
+        "number": "999",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "SL",
+      "name": "Sierra Leone",
+      "region": "Africa",
+      "emergency": {
+        "number": "999",
+        "note": null
+      },
+      "crisis": {
+        "number": "078 522 787",
+        "note": null
+      }
+    },
+    {
+      "country": "SN",
+      "name": "Senegal",
+      "region": "Africa",
+      "emergency": {
+        "number": "18",
+        "note": null
+      },
+      "crisis": {
+        "number": "33 889 38 00",
+        "note": null
+      }
+    },
+    {
+      "country": "SO",
+      "name": "Somalia",
+      "region": "Africa",
+      "emergency": {
+        "number": "999",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "SS",
+      "name": "South Sudan",
+      "region": "Africa",
+      "emergency": {
+        "number": "999",
+        "note": null
+      },
+      "crisis": {
+        "number": "778",
+        "note": null
+      }
+    },
+    {
+      "country": "ST",
+      "name": "São Tomé & Príncipe",
+      "region": "Africa",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "222 2222",
+        "note": null
+      }
+    },
+    {
+      "country": "SZ",
+      "name": "Eswatini",
+      "region": "Africa",
+      "emergency": {
+        "number": "977",
+        "note": null
+      },
+      "crisis": {
+        "number": "2404 3160",
+        "note": null
+      }
+    },
+    {
+      "country": "TA",
+      "name": "Tristan da Cunha",
+      "region": "Africa",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "TD",
+      "name": "Chad",
+      "region": "Africa",
+      "emergency": {
+        "number": "2251-4242",
+        "note": null
+      },
+      "crisis": null
+    },
+    {
+      "country": "TG",
+      "name": "Togo",
+      "region": "Africa",
+      "emergency": {
+        "number": "8200",
+        "note": null
+      },
+      "crisis": {
+        "number": "2221 1234",
+        "note": null
+      }
+    },
+    {
+      "country": "TN",
+      "name": "Tunisia",
+      "region": "Africa",
+      "emergency": {
+        "number": "190",
+        "note": null
+      },
+      "crisis": {
+        "number": "8010 3666",
+        "note": null
+      }
+    },
+    {
+      "country": "TZ",
+      "name": "Tanzania",
+      "region": "Africa",
+      "emergency": {
+        "number": "114",
+        "note": null
+      },
+      "crisis": {
+        "number": "199",
+        "note": null
+      }
+    },
+    {
+      "country": "UG",
+      "name": "Uganda",
+      "region": "Africa",
+      "emergency": {
+        "number": "911",
+        "note": null
+      },
+      "crisis": {
+        "number": "0800 21 21 21",
+        "note": null
+      }
+    },
+    {
+      "country": "YT",
+      "name": "Mayotte",
+      "region": "Africa",
+      "emergency": {
+        "number": "112",
+        "note": null
+      },
+      "crisis": {
+        "number": "3114",
+        "note": null
+      }
+    },
+    {
+      "country": "ZA",
+      "name": "South Africa",
+      "region": "Africa",
+      "emergency": {
+        "number": "10 177",
+        "note": null
+      },
+      "crisis": {
+        "number": "0800 567 567",
+        "note": null
+      }
+    },
+    {
+      "country": "ZM",
+      "name": "Zambia",
+      "region": "Africa",
+      "emergency": {
+        "number": "999",
+        "note": null
+      },
+      "crisis": {
+        "number": "096 026 4040",
+        "note": null
+      }
+    }
+  ]
+}

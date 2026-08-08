@@ -1,0 +1,13 @@
+{
+  "country": "BM",
+  "name": "Bermuda",
+  "region": "Caribbean",
+  "emergency": {
+    "number": "911",
+    "note": null
+  },
+  "crisis": {
+    "number": "(441) 239-1111",
+    "note": null
+  }
+}

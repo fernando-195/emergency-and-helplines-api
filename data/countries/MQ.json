@@ -1,0 +1,13 @@
+{
+  "country": "MQ",
+  "name": "Martinique",
+  "region": "Caribbean",
+  "emergency": {
+    "number": "112",
+    "note": null
+  },
+  "crisis": {
+    "number": "3114",
+    "note": null
+  }
+}

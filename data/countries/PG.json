@@ -1,0 +1,13 @@
+{
+  "country": "PG",
+  "name": "Papua New Guinea",
+  "region": "Oceania",
+  "emergency": {
+    "number": "111",
+    "note": null
+  },
+  "crisis": {
+    "number": "7147 1518",
+    "note": null
+  }
+}

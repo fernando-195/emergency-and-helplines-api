@@ -1,0 +1,13 @@
+{
+  "country": "IM",
+  "name": "Isle of Man",
+  "region": "Europe",
+  "emergency": {
+    "number": "112",
+    "note": "112 or 999"
+  },
+  "crisis": {
+    "number": "0808 802 1221",
+    "note": null
+  }
+}

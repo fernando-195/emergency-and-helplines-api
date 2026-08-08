@@ -1,0 +1,13 @@
+{
+  "country": "FJ",
+  "name": "Fiji",
+  "region": "Oceania",
+  "emergency": {
+    "number": "911",
+    "note": null
+  },
+  "crisis": {
+    "number": "1543",
+    "note": null
+  }
+}

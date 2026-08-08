@@ -1,0 +1,13 @@
+{
+  "country": "ML",
+  "name": "Mali",
+  "region": "Africa",
+  "emergency": {
+    "number": "15",
+    "note": null
+  },
+  "crisis": {
+    "number": "8000 1115",
+    "note": null
+  }
+}

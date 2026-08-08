@@ -1,0 +1,13 @@
+{
+  "country": "CI",
+  "name": "Côte d’Ivoire",
+  "region": "Africa",
+  "emergency": {
+    "number": "185",
+    "note": null
+  },
+  "crisis": {
+    "number": "143",
+    "note": null
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "country": "LK",
+  "name": "Sri Lanka",
+  "region": "Asia",
+  "emergency": {
+    "number": "110",
+    "note": null
+  },
+  "crisis": {
+    "number": "1926",
+    "note": null
+  }
+}

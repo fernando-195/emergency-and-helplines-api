@@ -1,0 +1,13 @@
+{
+  "country": "ID",
+  "name": "Indonesia",
+  "region": "Asia",
+  "emergency": {
+    "number": "112",
+    "note": null
+  },
+  "crisis": {
+    "number": "119",
+    "note": "119 option 8"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "country": "CN",
+  "name": "China",
+  "region": "Asia",
+  "emergency": {
+    "number": "120",
+    "note": null
+  },
+  "crisis": {
+    "number": "12355",
+    "note": null
+  }
+}

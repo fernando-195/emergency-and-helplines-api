@@ -1,0 +1,13 @@
+{
+  "country": "IL",
+  "name": "Israel",
+  "region": "Asia",
+  "emergency": {
+    "number": "101",
+    "note": null
+  },
+  "crisis": {
+    "number": "1201",
+    "note": null
+  }
+}

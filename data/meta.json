@@ -1,0 +1,31 @@
+{
+  "generatedAt": "2026-08-08",
+  "countries": 245,
+  "withCrisisLine": 199,
+  "withoutCrisisLine": 46,
+  "regions": {
+    "africa": 59,
+    "europe": 54,
+    "asia": 51,
+    "caribbean": 29,
+    "antarctica": 1,
+    "south-america": 15,
+    "oceania": 23,
+    "central-america": 8,
+    "north-america": 5
+  },
+  "sources": {
+    "emergency": {
+      "page": "List_of_emergency_telephone_numbers",
+      "revision": 1362829639,
+      "url": "https://en.wikipedia.org/wiki/List_of_emergency_telephone_numbers"
+    },
+    "crisis": {
+      "page": "List_of_suicide_crisis_lines",
+      "revision": 1363635917,
+      "url": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
+    },
+    "license": "Wikipedia text is CC BY-SA 4.0"
+  },
+  "disclaimer": "Compiled from Wikipedia and provided as guidance, not as verified official data. Numbers change. Verify against the official body of each country before relying on this where a wrong number causes harm."
+}

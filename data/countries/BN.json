@@ -1,0 +1,13 @@
+{
+  "country": "BN",
+  "name": "Brunei",
+  "region": "Asia",
+  "emergency": {
+    "number": "991",
+    "note": null
+  },
+  "crisis": {
+    "number": "145",
+    "note": null
+  }
+}

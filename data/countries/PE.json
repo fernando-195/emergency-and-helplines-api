@@ -1,0 +1,13 @@
+{
+  "country": "PE",
+  "name": "Peru",
+  "region": "South America",
+  "emergency": {
+    "number": "911",
+    "note": null
+  },
+  "crisis": {
+    "number": "113",
+    "note": "113 option 5"
+  }
+}

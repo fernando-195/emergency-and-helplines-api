@@ -1,0 +1,13 @@
+{
+  "country": "NZ",
+  "name": "New Zealand",
+  "region": "Oceania",
+  "emergency": {
+    "number": "111",
+    "note": null
+  },
+  "crisis": {
+    "number": "1737",
+    "note": null
+  }
+}

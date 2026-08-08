@@ -1,0 +1,13 @@
+{
+  "country": "JO",
+  "name": "Jordan",
+  "region": "Asia",
+  "emergency": {
+    "number": "911",
+    "note": null
+  },
+  "crisis": {
+    "number": "079 544 0416",
+    "note": null
+  }
+}

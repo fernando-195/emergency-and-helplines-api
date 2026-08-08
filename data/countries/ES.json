@@ -1,0 +1,13 @@
+{
+  "country": "ES",
+  "name": "Spain",
+  "region": "Europe",
+  "emergency": {
+    "number": "112",
+    "note": null
+  },
+  "crisis": {
+    "number": "024",
+    "note": null
+  }
+}

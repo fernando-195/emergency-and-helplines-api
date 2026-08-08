@@ -1,0 +1,13 @@
+{
+  "country": "GU",
+  "name": "Guam",
+  "region": "Oceania",
+  "emergency": {
+    "number": "911",
+    "note": null
+  },
+  "crisis": {
+    "number": "988",
+    "note": null
+  }
+}

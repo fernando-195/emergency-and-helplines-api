@@ -1,0 +1,13 @@
+{
+  "country": "BW",
+  "name": "Botswana",
+  "region": "Africa",
+  "emergency": {
+    "number": "997",
+    "note": null
+  },
+  "crisis": {
+    "number": "75 527 590",
+    "note": null
+  }
+}

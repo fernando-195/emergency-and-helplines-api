@@ -1,0 +1,13 @@
+{
+  "country": "BE",
+  "name": "Belgium",
+  "region": "Europe",
+  "emergency": {
+    "number": "112",
+    "note": null
+  },
+  "crisis": {
+    "number": "107",
+    "note": null
+  }
+}
