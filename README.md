@@ -46,6 +46,15 @@ curl https://cdn.jsdelivr.net/gh/fernando-195/emergency-and-helplines-api@main/d
 
 That is the whole API. Static JSON on a CDN, one file per country.
 
+> ### 🔄 It updates itself. You do nothing.
+>
+> A GitHub Action rebuilds the dataset from Wikipedia **every three months**, runs the tests, and
+> commits whatever changed. No server to keep alive, no key to rotate, no maintenance on your side
+> and none on mine. Point at the URL and forget about it.
+>
+> Every refresh is a commit, so if a country's number changes you can see **what changed and when**
+> in the history, instead of it moving silently under you.
+
 ---
 
 ## 🤔 Why this exists
@@ -114,7 +123,7 @@ own limits to whoever is calling, and it is not the right thing to point a shipp
 
 | | |
 | --- | --- |
-| Dataset rebuild | every 3 months (and on any push) |
+| Dataset rebuild | **automatic, every 3 months** (and on any push) |
 | jsDelivr cache on `@main` | up to **12 hours** |
 | jsDelivr cache on a pinned tag | forever (that is the point of pinning) |
 
@@ -370,10 +379,13 @@ Code: [MIT](LICENSE). Data: derived from Wikipedia, [CC BY-SA 4.0](https://creat
 
 ---
 
+## 🔎 Also known as
+
+Free emergency numbers API · suicide hotline API · crisis line by country · helpline directory JSON ·
+911 / 112 / 999 / 000 emergency numbers dataset · mental health crisis numbers by country ·
+suicide prevention lifeline lookup · ISO 3166 country emergency contacts · open data helplines ·
+free alternative to paid helpline APIs · no-API-key emergency services data.
+
 <div align="center">
-<sub>
-
-**Free emergency numbers API** · **suicide hotline API** · **crisis line by country** · **helpline directory JSON** · **911 112 999 000 emergency numbers dataset** · **mental health crisis numbers by country** · **suicide prevention lifeline API no key** · **ISO 3166 country emergency contacts** · **open data helplines** · **free alternative to paid helpline APIs**
-
-</sub>
+<sub>Built because a wellness app needed both lists and neither existed in a usable form.</sub>
 </div>
