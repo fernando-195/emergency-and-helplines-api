@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08",
+  "generatedAt": "2026-10-08",
   "countries": 245,
   "withCrisisLine": 199,
   "withoutCrisisLine": 46,
@@ -17,12 +17,12 @@
   "sources": {
     "emergency": {
       "page": "List_of_emergency_telephone_numbers",
-      "revision": 1362829639,
+      "revision": 1377218654,
       "url": "https://en.wikipedia.org/wiki/List_of_emergency_telephone_numbers"
     },
     "crisis": {
       "page": "List_of_suicide_crisis_lines",
-      "revision": 1363635917,
+      "revision": 1377979426,
       "url": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
     },
     "license": "Wikipedia text is CC BY-SA 4.0"
@@ -142,7 +142,7 @@
       "name": "Antarctica",
       "region": "Antarctica",
       "emergency": {
-        "number": "911 (",
+        "number": "911",
         "note": "McMurdo Station: 911 (fire and medical emergency dispatch)"
       },
       "crisis": null
@@ -319,7 +319,7 @@
         "note": null
       },
       "crisis": {
-        "number": "3844 7588 (",
+        "number": "3844 7588",
         "note": "3844 7588 (English) ; 6671 0901 (Arabic)"
       }
     },
@@ -807,7 +807,7 @@
       },
       "crisis": {
         "number": "171",
-        "note": "171 option 6"
+        "note": "171 (Press 6)"
       }
     },
     {
@@ -976,8 +976,8 @@
         "note": "999 or 112"
       },
       "crisis": {
-        "number": "116 123",
-        "note": null
+        "number": "0800 58 58 58",
+        "note": "0800 58 58 58 (5pm - 12am)"
       }
     },
     {
@@ -1261,7 +1261,7 @@
       },
       "crisis": {
         "number": "119",
-        "note": "119 option 8"
+        "note": "119 (Press 8)"
       }
     },
     {
@@ -1951,7 +1951,7 @@
         "note": null
       },
       "crisis": {
-        "number": "0999 399 765 (",
+        "number": "0999 399 765",
         "note": "0999 399 765 (Airtel) 885 400 502 (TNM)"
       }
     },
@@ -2036,7 +2036,7 @@
         "note": null
       },
       "crisis": {
-        "number": "7716156 (",
+        "number": "7716156",
         "note": "7716156 (Vodafone) ; 7716155 (Digicel)"
       }
     },
@@ -2164,7 +2164,7 @@
       },
       "crisis": {
         "number": "113",
-        "note": "113 option 5"
+        "note": "113 (Press 5)"
       }
     },
     {
@@ -2320,7 +2320,7 @@
       },
       "crisis": {
         "number": "16000",
-        "note": "16000 option 4"
+        "note": "16000 (Press 4)"
       }
     },
     {
@@ -2884,7 +2884,7 @@
       },
       "crisis": {
         "number": "988",
-        "note": null
+        "note": "988 Veterans & Military: Press 1 · Text 838255 ; Spanish (Español): Press 2 · Text AYUDA ; LGBTQ+ Youth (under 25): Press 3 · Text YOUTH"
       }
     },
     {

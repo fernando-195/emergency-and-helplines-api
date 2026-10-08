@@ -1,7 +1,7 @@
 {
   "region": "Asia",
   "countries": 51,
-  "generatedAt": "2026-08-08",
+  "generatedAt": "2026-10-08",
   "data": [
     {
       "country": "AE",
@@ -48,7 +48,7 @@
         "note": null
       },
       "crisis": {
-        "number": "3844 7588 (",
+        "number": "3844 7588",
         "note": "3844 7588 (English) ; 6671 0901 (Arabic)"
       }
     },
@@ -147,7 +147,7 @@
       },
       "crisis": {
         "number": "119",
-        "note": "119 option 8"
+        "note": "119 (Press 8)"
       }
     },
     {
@@ -492,7 +492,7 @@
       },
       "crisis": {
         "number": "16000",
-        "note": "16000 option 4"
+        "note": "16000 (Press 4)"
       }
     },
     {

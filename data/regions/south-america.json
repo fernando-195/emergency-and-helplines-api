@@ -1,7 +1,7 @@
 {
   "region": "South America",
   "countries": 15,
-  "generatedAt": "2026-08-08",
+  "generatedAt": "2026-10-08",
   "data": [
     {
       "country": "AR",
@@ -78,7 +78,7 @@
       },
       "crisis": {
         "number": "171",
-        "note": "171 option 6"
+        "note": "171 (Press 6)"
       }
     },
     {
@@ -140,7 +140,7 @@
       },
       "crisis": {
         "number": "113",
-        "note": "113 option 5"
+        "note": "113 (Press 5)"
       }
     },
     {

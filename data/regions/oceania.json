@@ -1,7 +1,7 @@
 {
   "region": "Oceania",
   "countries": 23,
-  "generatedAt": "2026-08-08",
+  "generatedAt": "2026-10-08",
   "data": [
     {
       "country": "AS",
@@ -136,7 +136,7 @@
         "note": null
       },
       "crisis": {
-        "number": "7716156 (",
+        "number": "7716156",
         "note": "7716156 (Vodafone) ; 7716155 (Digicel)"
       }
     },

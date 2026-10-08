@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08",
+  "generatedAt": "2026-10-08",
   "countries": 245,
   "withCrisisLine": 199,
   "withoutCrisisLine": 46,
@@ -17,12 +17,12 @@
   "sources": {
     "emergency": {
       "page": "List_of_emergency_telephone_numbers",
-      "revision": 1362829639,
+      "revision": 1377218654,
       "url": "https://en.wikipedia.org/wiki/List_of_emergency_telephone_numbers"
     },
     "crisis": {
       "page": "List_of_suicide_crisis_lines",
-      "revision": 1363635917,
+      "revision": 1377979426,
       "url": "https://en.wikipedia.org/wiki/List_of_suicide_crisis_lines"
     },
     "license": "Wikipedia text is CC BY-SA 4.0"
