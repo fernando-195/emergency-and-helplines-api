@@ -47,7 +47,20 @@ console.log("\n— The built dataset —");
 const all = JSON.parse(readFileSync("data/all.json", "utf8"));
 const byCode = new Map(all.data.map((c) => [c.country, c]));
 
-ok("a realistic number of countries", all.data.length > 200, `got ${all.data.length}`);
+/*
+ **A floor, not a range.** `> 200` was too loose to notice a country going missing, and one did:
+ the Cocos Islands linked to Australia, the row was filed under AU, and CC vanished from the
+ dataset with nothing to show for it. A disappearance has to be loud, because the dataset looks
+ perfectly healthy without it.
+
+ This number is RAISED when the source genuinely gains a country, and it is never lowered to make
+ the run green. If a country really has gone, that is a decision with a reason, taken in the same
+ commit that lowers it.
+*/
+const AL_MENOS = 245;
+ok("no country has disappeared", all.data.length >= AL_MENOS,
+   `got ${all.data.length}, expected at least ${AL_MENOS}. A country vanishing is never routine: `
+   + `find out which one and why before touching this floor`);
 ok("every code is two uppercase letters", all.data.every((c) => /^[A-Z]{2}$/.test(c.country)));
 ok("no historic or reserved codes", !["FX", "UK", "EU", "SU", "YU", "AN"].some((c) => byCode.has(c)),
    "these resolve in Intl but no device ever reports them");
@@ -73,6 +86,23 @@ ok("no stray closing paren", all.data.every((c) => {
   const n = c.crisis?.number ?? "";
   return !n.includes(")") || n.includes("(");
 }));
+/*
+ **And the mirror of it, on BOTH numbers.** The check above only looked at the crisis line and only
+ at a closing bracket, so it sat green while four countries shipped an emergency number with an
+ opening one glued to the end: Wikipedia reworded `171 option 6` into `171 (Press 6)` and the
+ parser kept the bracket. `911 (` is not a number anybody can dial, and it was live.
+
+ Both fields, because the one that broke was the one nobody was watching.
+*/
+const bracketsCuadran = (n) => (n.match(/\(/g) ?? []).length === (n.match(/\)/g) ?? []).length;
+ok("no number carries an unclosed bracket", all.data.every((c) =>
+  bracketsCuadran(c.emergency.number) && bracketsCuadran(c.crisis?.number ?? "")),
+  all.data.filter((c) => !bracketsCuadran(c.emergency.number) || !bracketsCuadran(c.crisis?.number ?? ""))
+    .map((c) => `${c.country}: ${c.emergency.number} / ${c.crisis?.number}`).join("; "));
+
+// Y el pin del Reino Unido, que es una promesa que hacemos contra la fuente: si se cae, se entera.
+ok("the United Kingdom is pinned to the 24h line", byCode.get("GB")?.crisis?.number === "116 123",
+   "116 123 (Samaritans) is free and answered around the clock; see PINNED in build.mjs");
 ok("notes never just repeat the number", all.data.every((c) =>
   !c.emergency.note || c.emergency.note.replace(/\s/g, "") !== c.emergency.number.replace(/\s/g, "")));
 

@@ -225,6 +225,33 @@ for (const name of new Set([...emergency.keys(), ...crisis.keys()])) {
   });
 }
 
+/**
+ * Numbers pinned against the source, with the reason and the date it was decided.
+ *
+ * A pin is a claim that we know better than Wikipedia, and it is the kind of claim that goes stale
+ * in silence: if Samaritans ever changed their number, this would keep serving the old one for
+ * years and the build would stay green. So it is kept to the smallest possible list, every entry
+ * carries why and when, and every run PRINTS what it overrode and what the page actually said.
+ * Reading the log is how you find out the pin has drifted.
+ */
+const PINNED = {
+  GB: {
+    crisis: { number: "116 123", note: null },
+    why: "On 8 Oct 2026 Wikipedia moved CALM (0800 58 58 58) ahead of Samaritans. Both are real "
+      + "UK lines, but CALM answers 5pm to midnight and 116 123 is free and answered around the "
+      + "clock. This dataset is read by people looking for a number at any hour, so the 24h line "
+      + "is the one that belongs in the field. Revisit if Samaritans stops being 24h.",
+  },
+};
+
+for (const c of countries) {
+  const pin = PINNED[c.country]?.crisis;
+  if (!pin) continue;
+  const said = c.crisis?.number ?? "nothing";
+  c.crisis = { ...pin };
+  if (said !== pin.number) console.log(`pinned ${c.country} crisis to ${pin.number} (the page says ${said})`);
+}
+
 countries.sort((a, b) => a.country.localeCompare(b.country));
 
 const byRegion = {};
