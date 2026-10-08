@@ -60,10 +60,10 @@ ok("every country has a region", all.data.every((c) => c.region));
 
 // The two the sources must never get wrong: both are published by their own governments.
 ok("Spain: 112 and 024",
-   byCode.get("ES")?.emergency.number === "112" && byCode.get("ES")?.crisis.number === "024");
+   byCode.get("ES")?.emergency.number === "112" && byCode.get("ES")?.crisis?.number === "024");
 ok("United States: 911 and 988",
-   byCode.get("US")?.emergency.number === "911" && byCode.get("US")?.crisis.number === "988");
-ok("Spain's crisis line is not 717", byCode.get("ES")?.crisis.number !== "717",
+   byCode.get("US")?.emergency.number === "911" && byCode.get("US")?.crisis?.number === "988");
+ok("Spain's crisis line is not 717", byCode.get("ES")?.crisis?.number !== "717",
    "a widely used pre-scraped dataset returns 717 here, which dials nowhere");
 
 ok("France is present", byCode.has("FR"));

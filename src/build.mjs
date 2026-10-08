@@ -69,7 +69,15 @@ function tableRows(html) {
   const chunks = [...html.matchAll(/<h[23][^>]*>[\s\S]*?<\/h[23]>|<table[^>]*wikitable[\s\S]*?<\/table>/g)];
   for (const [chunk] of chunks) {
     if (chunk.startsWith("<h")) { section = plain(chunk) || section; continue; }
-    for (const tr of chunk.matchAll(/<tr>([\s\S]*?)<\/tr>/g)) {
+    /*
+     `<tr[^>]*>` and not `<tr>`: Wikipedia puts attributes on rows whenever an editor touches the
+     styling (`<tr style="vertical-align: top;">`), and a row that gets one used to vanish from the
+     dataset without a word. That is how the United States lost its 988 line: one row out of 227
+     picked up a style attribute. On 1 Oct 2026 the page had them on every row and the build came
+     out with `with crisis line: 0`, which failed the test and killed two monthly refreshes in a
+     row. A country that disappears should never be a silent event, so this stays permissive.
+    */
+    for (const tr of chunk.matchAll(/<tr[^>]*>([\s\S]*?)<\/tr>/g)) {
       const cells = [...tr[1].matchAll(/<td([^>]*)>([\s\S]*?)<\/td>/g)]
         .map((m) => ({ attrs: m[1], text: plain(m[2]) }));
       if (cells.length < 2) continue;

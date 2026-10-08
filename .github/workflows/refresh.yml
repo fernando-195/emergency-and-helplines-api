@@ -35,9 +35,17 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      # v4 runs on Node 20, which GitHub deprecated: runners now force those actions onto Node 24
+      # and print a warning on every run. v5 and later target Node 24 natively.
+      #
+      # Note for whoever bumps these next: checkout v6 moved the persisted token out of
+      # .git/config into a separate file pulled in with includeIf. The "Commit the diff" step
+      # below pushes with that token, so that path is the one to re-check after any bump here.
+      # It is not covered by the push/pull_request runs: only schedule and workflow_dispatch
+      # reach it, so verify with a manual run rather than assuming a green build means it works.
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
           node-version: "22"
 
