@@ -62,6 +62,37 @@ const slug = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g
  * document in order and remembering the last heading is enough, and it means the regions stay
  * correct if Wikipedia reorganises them.
  */
+/**
+ * The country a row is about, taken from its first link.
+ *
+ * Normally the link's `title` (the article it points at) IS the country, and it is the better of
+ * the two: it carries the canonical spelling. The visible text drifts (`Turkiye` for Turkey,
+ * `Sao Tome and Principe` without its accents) and on navbox rows it is junk like `v`. It is also
+ * the join key between the two Wikipedia pages, so swapping it for the text would split a country
+ * in half: the emergency page would file Turkey under `Turkey` and the crisis page under
+ * `Turkiye`, and the merge would emit TR twice, each missing the other's number.
+ *
+ * The exception is a territory whose article link points at its parent country:
+ *
+ *   <a title="Australia">Cocos (Keeling) Islands</a>
+ *
+ * Read by title, that row is Australia, so the Cocos Islands vanished from the dataset and their
+ * 000 was written over Australia's. Both say 000, which is why nothing looked wrong.
+ *
+ * So the text only wins when both resolve to a country AND they are different countries, which is
+ * the pathology itself and nothing else: measured over both pages today, that is one row out of
+ * 475. Where the two spellings mean the same country the title stays, and the join key with it.
+ */
+function nombreDeLaFila(fila) {
+  const m = /<a[^>]*title="([^"]+)"[^>]*>([\s\S]*?)<\/a>/.exec(fila);
+  if (!m) return /<a[^>]*title="([^"]+)"/.exec(fila)?.[1];
+  const titulo = m[1];
+  const texto = m[2].replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
+  const porTitulo = isoCode(titulo);
+  const porTexto = texto ? isoCode(texto) : null;
+  return porTexto && porTitulo && porTexto !== porTitulo ? texto : titulo;
+}
+
 function tableRows(html) {
   const rows = [];
   let section = null;
@@ -81,7 +112,7 @@ function tableRows(html) {
       const cells = [...tr[1].matchAll(/<td([^>]*)>([\s\S]*?)<\/td>/g)]
         .map((m) => ({ attrs: m[1], text: plain(m[2]) }));
       if (cells.length < 2) continue;
-      const country = /<a[^>]*title="([^"]+)"/.exec(tr[1])?.[1];
+      const country = nombreDeLaFila(tr[1]);
       if (country) rows.push({ country, cells, section });
     }
   }
@@ -108,6 +139,22 @@ export function firstNumber(cell) {
   const m = /[*#(]?[\d(][\d\s().-]{1,17}/.exec(firstAlternative);
   if (!m) return null;
   let out = m[0].trim().replace(/[.\-\s]+$/, "");
+  /*
+   An UNMATCHED "(" opens an annotation, not part of the number, so the number ends there. What
+   separates the two is whether the bracket closes, not where it sits: `8 (017) 311-00-99` closes
+   and is Belarus dialling out, `171 (Press 6` never closes because the regex above stopped at the
+   letter. Cutting on position instead of on closure turned Belarus, Russia and Turkmenistan into
+   the single digit `8`, which is why this is written the long way. Wikipedia reworded a dozen cells from `171 option 6` to `171 (Press 6)` and the
+   number came out as `171 (`: a dialable string with a bracket glued to it, in a dataset whose
+   whole job is numbers people dial in an emergency. Measured on both pages today it also produced
+   `119 (`, `113 (`, `16000 (`, `000 (`, `911 (` and `0800 58 58 58 (5`.
+
+   The leading parenthesis stays untouched: `(784) 456-1044` is how about ten Caribbean countries
+   write their line, and cutting there would leave them with a single digit.
+  */
+  for (let i = out.indexOf("("); i !== -1; i = out.indexOf("(", i + 1)) {
+    if (out.indexOf(")", i) === -1) { out = out.slice(0, i).replace(/[.\-\s]+$/, ""); break; }
+  }
   if (!out.includes("(")) out = out.replace(/\)/g, "").trim();     // stray ")" from a mid-cell cut
   if (!/\d/.test(out)) return null;
   return out.replace(/\D/g, "").length <= 15 ? out : null;
